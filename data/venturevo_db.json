@@ -1,0 +1,1881 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_founder_001",
+      "email": "founder@venturevo.ai",
+      "password_hash": "959254b90afe18fa90364c9ecfa1014c5ef36892e5a441bd97ea7d44ee81bad3",
+      "name": "Elena Rostova",
+      "role": "owner",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "usr_17cf839e5b8d1a32",
+      "email": "christyetuk208@gmail.com",
+      "password_hash": "a96dbb5e0f45e4de2ef69d80bc3a35910eebcfeadb39104835a083ee8e1eb1d2",
+      "name": "Christy etuk",
+      "role": "owner",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=Christy%20etuk%20",
+      "is_active": true,
+      "created_at": "2026-09-06T17:28:32.259Z",
+      "updated_at": "2026-09-06T17:28:32.259Z"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "name": "ApexFlow Automation",
+      "slug": "apexflow-automation",
+      "type": "existing",
+      "stage": "early_revenue",
+      "status": "active",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "biz_48efa6abe50916ae",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "name": "de chrino global enterprise",
+      "slug": "de-chrino-global-enterprise",
+      "type": "existing",
+      "stage": "early_revenue",
+      "status": "active",
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "business_profiles": [
+    {
+      "id": "prof_001",
+      "business_id": "biz_demo_venturevo_001",
+      "is_new": false,
+      "country": "United States",
+      "city": "Austin, TX",
+      "industry": "B2B SaaS / Workflow Optimization",
+      "starting_capital": 15000,
+      "currency": "USD",
+      "skills": [
+        "Software Engineering",
+        "Direct Sales",
+        "Product Architecture"
+      ],
+      "experience": "5 years building backend tools for mid-market logistics companies.",
+      "available_time_hours_per_week": 40,
+      "business_interests": [
+        "B2B Workflow AI",
+        "Inventory Automation",
+        "SaaS"
+      ],
+      "business_model": "online",
+      "products_services": "Automated order reconciliation software for independent 3PL operators.",
+      "current_pricing": "$499/month per distribution center + $0.08 per automated manifest.",
+      "target_customers": "Independent logistics providers with 5–50 employees handling >2,000 orders/mo.",
+      "main_problem": "High customer acquisition cost (CAC) and long sales cycles through cold outreach.",
+      "main_goal": "Reach $25,000 Monthly Recurring Revenue (MRR) within 6 months with payback < 60 days.",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "prof_3c65648e5f08688b",
+      "business_id": "biz_48efa6abe50916ae",
+      "is_new": false,
+      "country": "Nigeria ",
+      "city": "akwa ibom state, ikot ekpene ",
+      "industry": "provision store",
+      "starting_capital": 0,
+      "currency": "USD",
+      "skills": [
+        "provision store"
+      ],
+      "experience": "4 years of selling food stuff",
+      "available_time_hours_per_week": 80,
+      "business_interests": [
+        "B2B Workflow",
+        "AI Tools",
+        "Logistics"
+      ],
+      "business_model": "physical",
+      "products_services": "To sell in a provision store ",
+      "current_pricing": "$40/month per facility",
+      "target_customers": "Initial target market",
+      "main_problem": "Is to get much customer and a electricity to cool drinks",
+      "main_goal": "Reach $25k Monthly Recurring Revenue with payback < 60 days",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "business_goals": [
+    {
+      "id": "goal_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Reach $25,000 Monthly Recurring Revenue (MRR)",
+      "metric_type": "revenue",
+      "target_value": 25000,
+      "current_value": 8400,
+      "unit": "USD/mo",
+      "deadline": "2027-03-05",
+      "status": "in_progress",
+      "notes": "Targeting 34 net new paying 3PL logistics facilities.",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "goal_002",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Shorten Sales Cycle from 45 to 14 Days",
+      "metric_type": "operational",
+      "target_value": 14,
+      "current_value": 38,
+      "unit": "days",
+      "deadline": "2026-12-05",
+      "status": "in_progress",
+      "notes": "Introducing a 7-day risk-free automated pilot workflow.",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "goal_42f14641c5cb05c6",
+      "business_id": "biz_48efa6abe50916ae",
+      "title": "Reach $25k Monthly Recurring Revenue with payback < 60 days",
+      "metric_type": "revenue",
+      "target_value": 10000,
+      "current_value": 0,
+      "unit": "USD",
+      "deadline": "2026-12-05",
+      "status": "in_progress",
+      "notes": "Initial primary milestone set during business onboarding.",
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "business_problems": [
+    {
+      "id": "prob_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Cold Outreach Outbound Reply Rate is under 1.8%",
+      "severity": "critical",
+      "category": "acquisition",
+      "description": "Generic email sequences targeting Operations Directors are lost in noise. Lack of personalized trigger events.",
+      "root_causes": [
+        "Value proposition emphasizes generic automation instead of concrete audit penalty savings",
+        "Target list includes warehouse managers without purchasing sign-off authority"
+      ],
+      "recommended_actions": [
+        "Reposition offer around \"Zero Discrepancy SLA guarantee\" with immediate 15-minute manifest audit",
+        "Target VP of Logistics with verified pain points around peak season carrier fines"
+      ],
+      "status": "in_remediation",
+      "diagnosis": "The current offer positions ApexFlow as a \"nice to have tool\" rather than a painkiller that eliminates costly invoice dispute penalties.",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "prob_002",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Customer Onboarding Takes 18 Days Due to Custom CSV Formats",
+      "severity": "high",
+      "category": "operations",
+      "description": "Each client uses slightly different warehouse management export schemas, requiring manual script configuration.",
+      "status": "diagnosing",
+      "diagnosis": "Self-serve schema auto-mapping parser is needed to reduce manual engineer intervention.",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "prob_d2f0c0f11bc6102e",
+      "business_id": "biz_48efa6abe50916ae",
+      "title": "Is to get much customer and a electricity to cool drinks",
+      "severity": "critical",
+      "category": "acquisition",
+      "description": "Primary bottleneck identified at onboarding: Is to get much customer and a electricity to cool drinks",
+      "status": "unsolved",
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "business_opportunities": [
+    {
+      "id": "opp_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Cold Storage 3PL Automated Compliance Add-on",
+      "description": "Cold chain distributors face strict temperature tracking documentation audits and are willing to pay a 2x premium for certified logs.",
+      "demand_score": 88,
+      "founder_fit_score": 92,
+      "capital_required": 2000,
+      "speed_to_first_customer_days": 21,
+      "competition_level": "low",
+      "risk_level": "medium",
+      "scalability_score": 85,
+      "overall_leverage_score": 91,
+      "status": "evaluating",
+      "key_hypotheses": [
+        "Cold storage operators lose over $12,000 annually per warehouse in compliance verification labor.",
+        "They will convert at $890/month without custom software modifications."
+      ],
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "opp_002",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Partner Referral Channel with Regional TMS Vendors",
+      "description": "Transportation Management Software resellers lack reconciliation modules and frequently get requests from their clients.",
+      "demand_score": 79,
+      "founder_fit_score": 84,
+      "capital_required": 500,
+      "speed_to_first_customer_days": 35,
+      "competition_level": "medium",
+      "risk_level": "low",
+      "scalability_score": 90,
+      "overall_leverage_score": 84,
+      "status": "discovered",
+      "key_hypotheses": [
+        "TMS vendors will accept a 20% revenue share in exchange for warm customer introductions."
+      ],
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "opp_e4d7427a1343181f",
+      "business_id": "biz_48efa6abe50916ae",
+      "title": "de chrino global enterprise Direct Value-First Offer",
+      "description": "Direct outreach offering a specific solution to \"Is to get much customer and a electricity to cool drinks\" with zero-risk trial terms.",
+      "demand_score": 82,
+      "founder_fit_score": 90,
+      "capital_required": 500,
+      "speed_to_first_customer_days": 14,
+      "competition_level": "medium",
+      "risk_level": "low",
+      "scalability_score": 80,
+      "overall_leverage_score": 87,
+      "status": "evaluating",
+      "key_hypotheses": [
+        "Target customers will engage if the problem is quantified in monetary or time-savings terms.",
+        "Founder's background can be leveraged as immediate authority proof."
+      ],
+      "created_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "growth_plans": [
+    {
+      "id": "plan_growth_q3_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Q3 High-Leverage Outbound & Pilot Acceleration",
+      "objective": "Acquire 12 new distribution hubs at $499/mo by shifting to an evidence-backed Free Manifest Audit acquisition hook.",
+      "status": "active",
+      "timeframe_weeks": 8,
+      "progress_pct": 35,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "plan_f17b310ea4581c07",
+      "business_id": "biz_48efa6abe50916ae",
+      "title": "Phase 1: de chrino global enterprise Validation & Foundation",
+      "objective": "Overcome \"Is to get much customer and a electricity to cool drinks\" and validate value-to-price ratio with real customer feedback.",
+      "status": "active",
+      "timeframe_weeks": 4,
+      "progress_pct": 0,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "growth_tasks": [
+    {
+      "id": "task_001",
+      "growth_plan_id": "plan_growth_q3_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Build 1-Page \"Manifest Discrepancy Calculator\" Lead Magnet",
+      "description": "Interactive micro-calculator where 3PL operations managers input daily order volume and see estimated billing leakage.",
+      "category": "marketing",
+      "priority": "highest_leverage",
+      "status": "in_progress",
+      "leverage_score": 94,
+      "estimated_hours": 6,
+      "due_date": "2026-09-09",
+      "outcome_notes": "Drafted wireframe; integrating sample freight rate dispute data.",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "task_002",
+      "growth_plan_id": "plan_growth_q3_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Interview 5 Logistics VPs on Peak Season Reconciliation Bottlenecks",
+      "description": "Validate actual invoice dispute costs and exact triggers that force vendor evaluation.",
+      "category": "customer_discovery",
+      "priority": "highest_leverage",
+      "status": "done",
+      "leverage_score": 90,
+      "estimated_hours": 8,
+      "due_date": "2026-09-04",
+      "outcome_notes": "Completed 5 interviews. Key insight: Average warehouse loses 3.2% of carrier invoices to untracked surcharges.",
+      "metrics_impact": "Discovered core positioning hook: \"Recover 3.2% in carrier billing overcharges automatically\".",
+      "completed_at": "2026-09-04T17:16:01.029Z",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "task_003",
+      "growth_plan_id": "plan_growth_q3_001",
+      "business_id": "biz_demo_venturevo_001",
+      "title": "Revise Outbound Sequence with 3.2% Billing Leakage Angle",
+      "description": "Replace generic 4-email sequence with short 65-word trigger-based emails referencing recent carrier rate hikes.",
+      "category": "sales",
+      "priority": "high",
+      "status": "todo",
+      "leverage_score": 86,
+      "estimated_hours": 4,
+      "due_date": "2026-09-11",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "task_c324c77946d39658",
+      "growth_plan_id": "plan_f17b310ea4581c07",
+      "business_id": "biz_48efa6abe50916ae",
+      "title": "Conduct 5 Problem-Validation Customer Conversations",
+      "description": "Speak directly with 5 representative individuals in your target market (audience) to verify the severity of the problem before spending money.",
+      "category": "customer_discovery",
+      "priority": "highest_leverage",
+      "status": "todo",
+      "leverage_score": 95,
+      "estimated_hours": 6,
+      "due_date": "2026-09-13",
+      "created_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "business_memory": [
+    {
+      "id": "mem_001",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "business_fundamentals",
+      "key": "Core Value Proposition",
+      "value": "Eliminates logistics order discrepancy disputes between 3PL warehouses and freight carriers automatically.",
+      "reliability": "verified_fact",
+      "source": "Founding architecture",
+      "confidence_pct": 100,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_002",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "pricing_and_unit_economics",
+      "key": "Base SaaS Subscription & Gross Margin",
+      "value": "Base price is $499/month per facility. Gross profit margin on SaaS revenue is currently 88%.",
+      "reliability": "verified_fact",
+      "source": "Financial reports",
+      "confidence_pct": 98,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_003",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "customer_profiles",
+      "key": "Target Customer Economic Buyer",
+      "value": "VP of Logistics or Director of Warehouse Operations at mid-sized independent 3PL firms (5 to 50 employees).",
+      "reliability": "user_provided",
+      "source": "Founder onboarding profile",
+      "confidence_pct": 90,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_004",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "validated_findings",
+      "key": "Carrier Overcharge Incidence",
+      "value": "Mid-sized 3PL warehouses experience an average 3.2% surcharge discrepancy rate on weekly carrier freight invoices.",
+      "reliability": "verified_fact",
+      "source": "5 customer discovery interviews conducted Aug 2026",
+      "confidence_pct": 94,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_005",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "important_decisions",
+      "key": "Discontinued Custom On-Premises Deployments",
+      "value": "Decided in June 2026 to exclusively sell cloud multi-tenant instances to avoid engineer overhead on on-premise updates.",
+      "reliability": "verified_fact",
+      "source": "Executive decision log",
+      "confidence_pct": 100,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_006",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "pricing_and_unit_economics",
+      "key": "Estimated Customer Lifetime Value (LTV)",
+      "value": "Estimated at $14,900 assuming average 30-month retention at $499/mo.",
+      "reliability": "estimate",
+      "source": "Financial model estimation",
+      "confidence_pct": 75,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_007",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "customer_profiles",
+      "key": "Assumption: High Switching Barrier from Existing EDI Tools",
+      "value": "Warehouses with legacy EDI setups may require 2x more onboarding support or a pre-built adapter.",
+      "reliability": "assumption",
+      "source": "Team hypothesis",
+      "confidence_pct": 60,
+      "is_active": true,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mem_b1c028bb55ae2396",
+      "business_id": "biz_48efa6abe50916ae",
+      "category": "business_fundamentals",
+      "key": "Business Model & Offering",
+      "value": "de chrino global enterprise operates as a physical business delivering: To sell in a provision store .",
+      "reliability": "user_provided",
+      "source": "Onboarding questionnaire",
+      "confidence_pct": 95,
+      "is_active": true,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    },
+    {
+      "id": "mem_8c8d33f6ab2904bb",
+      "business_id": "biz_48efa6abe50916ae",
+      "category": "strategic_goals",
+      "key": "Primary Business Goal",
+      "value": "Reach $25k Monthly Recurring Revenue with payback < 60 days",
+      "reliability": "user_provided",
+      "source": "Onboarding questionnaire",
+      "confidence_pct": 95,
+      "is_active": true,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    },
+    {
+      "id": "mem_2e6407ebb9cc5ff0",
+      "business_id": "biz_48efa6abe50916ae",
+      "category": "customer_profiles",
+      "key": "Initial Target Customer Avatar",
+      "value": "Market segment specified during onboarding.",
+      "reliability": "user_provided",
+      "source": "Onboarding questionnaire",
+      "confidence_pct": 95,
+      "is_active": true,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    },
+    {
+      "id": "mem_c7f67e4989fc1ab7",
+      "business_id": "biz_48efa6abe50916ae",
+      "category": "pricing_and_unit_economics",
+      "key": "Pricing Model",
+      "value": "$40/month per facility",
+      "reliability": "user_provided",
+      "source": "Onboarding questionnaire",
+      "confidence_pct": 95,
+      "is_active": true,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    },
+    {
+      "id": "mem_8dc3afd54563f128",
+      "business_id": "biz_48efa6abe50916ae",
+      "category": "operational_learnings",
+      "key": "Founder Resources & Constraints",
+      "value": "Starting capital: $0 USD. Available weekly time: 80 hrs. Experience: 4 years of selling food stuff.",
+      "reliability": "verified_fact",
+      "source": "Founder self-assessment",
+      "confidence_pct": 95,
+      "is_active": true,
+      "created_at": "2026-09-06T17:41:05.445Z",
+      "updated_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "ai_conversations": [
+    {
+      "id": "conv_2f2324e79b02fd37",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "title": "What is our top priority this week?",
+      "model_used": "gemini-3.7-flash",
+      "created_at": "2026-09-06T19:16:12.502Z",
+      "updated_at": "2026-09-06T19:16:26.142Z"
+    },
+    {
+      "id": "conv_81f49d749e3607d2",
+      "business_id": "biz_48efa6abe50916ae",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "title": "how to get money for solar I want to buy sola...",
+      "model_used": "gemini-3.7-flash",
+      "created_at": "2026-09-06T17:48:47.451Z",
+      "updated_at": "2026-09-06T19:12:28.445Z"
+    },
+    {
+      "id": "conv_001",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "title": "Positioning & CAC Reduction Strategy",
+      "model_used": "gemini-3.7-flash",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "ai_messages": [
+    {
+      "id": "msg_001",
+      "conversation_id": "conv_001",
+      "role": "user",
+      "content": "Our cold email reply rate is stuck under 2%. What is the highest-leverage change we can make right now to convert more 3PL warehouse operators?",
+      "created_at": "2026-09-06T16:16:01.029Z"
+    },
+    {
+      "id": "msg_002",
+      "conversation_id": "conv_001",
+      "role": "assistant",
+      "content": "### Strategic Diagnosis\n\nBased on your verified memory and discovery findings, your current cold emails suffer from a **Value Clarity Deficit**. Mid-market 3PL Operations Directors receive 15+ \"workflow automation\" pitches per week. \n\nYour recent customer discovery uncovered a verified fact: **warehouses lose an average of 3.2% in unbudgeted carrier surcharge disputes**. This is an acute financial pain point, not a general efficiency goal.\n\n---\n\n### Key Evidence & Frameworks\n\n* **Verified Fact**: You recently validated that mid-market 3PL operators suffer a 3.2% discrepancy rate on freight manifests.\n* **User-Provided**: Target audience is VPs/Directors of Logistics handling >2,000 shipments monthly.\n* **Estimate**: A warehouse doing $200k in monthly freight spend is leaking ~$6,400/month in avoidable dispute friction.\n* **Hypothesis**: Offering an instant \"5-Minute Free Manifest Leakage Audit\" on 100 historical shipments will yield a 4x higher reply rate than standard demo requests.\n\n---\n\n### Highest-Leverage Next Action\n\n**Action: Deploy a \"Zero-Risk Historical Audit\" hook in cold outreach.**\n\nInstead of asking for a 30-minute demo, ask:\n> *\"Would you be open to sending 1 redacted carrier invoice CSV so our script can run a 3-minute reconciliation and show you any billing discrepancies for free?\"*\n\nThis removes buyer risk, proves software accuracy with their own data, and creates immediate purchasing urgency.",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Carrier Overcharge Incidence",
+          "source": "Business Memory: Validated Findings",
+          "type": "business_memory",
+          "excerpt": "Mid-sized 3PL warehouses experience an average 3.2% surcharge discrepancy rate on weekly carrier freight invoices."
+        },
+        {
+          "id": "cit_2",
+          "title": "Base Pricing Model",
+          "source": "Business Memory: Pricing & Unit Economics",
+          "type": "business_memory",
+          "excerpt": "Base price is $499/month per facility. Gross profit margin is 88%."
+        }
+      ],
+      "verified_facts": [
+        "3PL facilities experience 3.2% average shipping invoice discrepancies.",
+        "Current base SaaS fee is $499/month with 88% gross margin."
+      ],
+      "user_provided_info": [
+        "Cold outreach reply rate is currently under 1.8%.",
+        "Target buyers are Operations Directors and Logistics VPs."
+      ],
+      "estimates": [
+        "Average monthly financial leakage per target warehouse is estimated at $4,000–$7,500."
+      ],
+      "assumptions": [
+        "Logistics Directors have export permissions for historical CSV manifests."
+      ],
+      "hypotheses": [
+        "A \"Free Manifest Leakage Audit\" hook will lift reply rates above 5.0%."
+      ],
+      "recommended_next_action": {
+        "title": "Revise Outbound Sequence with 3.2% Billing Leakage Angle",
+        "action_type": "sales",
+        "leverage_score": 92,
+        "description": "A/B test 100 targeted accounts using the free manifest audit offer against the control template."
+      },
+      "tokens_used": 480,
+      "created_at": "2026-09-06T16:16:51.029Z"
+    },
+    {
+      "id": "msg_86ff74ec26ec1966",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "user",
+      "content": "how to get money for solar I want to buy solar system for Colling drinks this week ",
+      "created_at": "2026-09-06T17:48:47.451Z"
+    },
+    {
+      "id": "msg_6c3c4f203ff59a8f",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "assistant",
+      "content": "### Strategic Assessment: Solar Power & Drink Cooling Solutions\n\nTo get cold drinks selling in your store in **Ikot Ekpene, Akwa Ibom State** this week with **$0 starting capital**, we must separate the **ultimate goal** (owning a reliable solar-powered cooling setup) from the **immediate operational need** (serving cold drinks to paying customers today).\n\nA dedicated solar setup capable of handling the surge current of a commercial refrigerator or deep freezer typically requires an inverter (minimum 1.5kVA–2.5kVA), heavy-duty batteries, and multiple solar panels. Without upfront cash, buying this outright within 7 days is not feasible without taking high-risk, predatory debt.\n\nHowever, you can start selling chilled drinks **this week** using zero/low-capital bridge methods to generate the exact daily cash flow needed to fund your solar setup.\n\n---\n\n### Evidence & Assumptions Breakdown\n\n*   **[USER-PROVIDED]**: Business location is Ikot Ekpene, Akwa Ibom State; 4 years of retail experience in foodstuffs; currently $0 working capital; available working time is 80 hrs/week.\n*   **[VERIFIED FACT]**: Standard refrigeration compressors have high starting/surge wattage, requiring substantially larger solar inverters and battery banks than standard lighting or fan systems.\n*   **[ESTIMATE]**: An entry-level solar setup capable of running a small DC solar freezer or efficient inverter chest freezer in Nigeria costs between **₦450,000 to ₦1,200,000** depending on battery chemistry (Gel vs. Lithium) and panel capacity.\n*   **[ASSUMPTION]**: Ice depots or cold rooms are active and accessible within commercial hubs in Ikot Ekpene (e.g., near Ikot Ekpene Main Market / Control Post area).\n*   **[HYPOTHESIS]**: Selling cold drinks using daily purchased ice blocks in an insulated chest or unplugged freezer will generate immediate positive daily cash flow without debt.\n\n---\n\n### Practical Options to Fund & Achieve Cooling This Week\n\n```\n                  ┌──────────────────────────────────────────────┐\n                  │      GOAL: COLD DRINKS CASH FLOW             │\n                  └──────────────────────┬───────────────────────┘\n                                         │\n                 ┌───────────────────────┴───────────────────────┐\n                 ▼                                               ▼\n     ┌───────────────────────┐                       ┌───────────────────────┐\n     │  IMMEDIATE (Day 1-7)  │                       │ MID-TERM (Month 1-3)  │\n     │  Ice-Block Strategy   │                       │ PAYG Solar / Purchase │\n     │  • Zero Capital Loan  │                       │ • Financed by Drink   │\n     │  • Instant Daily Cash │                       │   Cash Flow           │\n     └───────────────────────┘                       └───────────────────────┘\n```\n\n#### Option 1: The \"Ice Block Depot\" Bridge (Fastest: 24–48 Hours, Low/Zero Capital)\n*   **How it works**: Instead of waiting for solar equipment, purchase 2 to 4 commercial ice blocks daily from local cold rooms or ice-block producers in Ikot Ekpene. Place them inside a thick styrofoam cooler or your existing unplugged deep freezer with drinks stacked around them.\n*   **Capital Required**: Minimal (approx. ₦1,500 – ₦3,000 daily for ice blocks, paid from daily turnover).\n*   **Advantage**: You start selling chilled drinks immediately, capturing the foot traffic and margin this week while keeping 100% of profit toward a dedicated solar savings pool.\n\n#### Option 2: Pay-As-You-Go (PAYG) / Asset-Financed Solar (3–7 Days)\n*   **How it works**: Apply through clean-energy micro-finance providers or PAYG solar companies operating in Akwa Ibom (e.g., SunKing/Greenlight Planet, Lumos, or local agricultural/MSME microfinance banks in Uyo/Ikot Ekpene).\n*   **Requirements**: Requires an initial down payment (usually 15%–25%) and daily/weekly mobile payments.\n*   **Action Needed**: Inquire specifically about **DC Solar Freezers** or **productive-use appliances**, as standard mini-home systems cannot power a refrigerator.\n\n#### Option 3: Distributor Consignment / Credit Arrangement\n*   **How it works**: Approach your primary beverage distributor in Ikot Ekpene. Large wholesale depots occasionally provide credit on fast-moving drinks (water, malt, soft drinks) or connect high-volume retailers to equipment financing programs if you commit to steady volume.\n\n---\n\n### Unit Economics: Ice-Bridge vs. PAYG Solar\n\n| Model | Upfront Capital | Daily Operating Cost | Speed to Launch | Risk Level |\n| :--- | :--- | :--- | :--- | :--- |\n| **Ice-Block Cooling** | ₦0 – ₦3,000 | ₦1,500 – ₦3,000 (Ice) | **1 Day** | Very Low |\n| **PAYG Solar System** | ₦50,000 – ₦120,000 (Deposit) | ₦1,000 – ₦2,500/day (Lease) | 5–10 Days | Medium (Contractual debt) |\n| **Outright Solar Purchase** | ₦450,000 – ₦900,000+ | ₦0 (Maintenance only) | Delayed until capital saved | Low (if paid in cash) |\n\n---\n\n### The Single Highest-Leverage Next Action\n\nImplement the **48-Hour Ice-Block Pilot** to start generating cold-drink revenue immediately without incurring debt.\n\n#### Action Task: Execute the Local Ice-Sourcing Route\n*   **Objective**: Source local ice blocks to cool your first batch of drinks within 24 hours.\n*   **Estimated Time**: 3 hours.\n*   **Execution Steps**:\n    1. Locate the nearest commercial cold room or ice depot in Ikot Ekpene.\n    2. Check the price per block and establish a morning pickup or delivery schedule.\n    3. Load your insulated cooler or unplugged freezer with fast-moving stock (bottled water, popular soft drinks, malt).\n    4. Set aside 100% of the daily cold-drink mark-up profit in a dedicated **\"Solar Equipment Fund\"**.\n\n**Validation Criteria**: Store sells its first batch of chilled drinks within 24 hours of ice placement and logs the net daily profit.\n\n***\n\n*Once you have completed this sourcing run or have details on local PAYG solar providers in your area, share the numbers here so we can calculate your exact daily payback timeline.*",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Business Model & Offering",
+          "source": "Business Memory: business_fundamentals",
+          "type": "business_memory",
+          "excerpt": "de chrino global enterprise operates as a physical business delivering: To sell in a provision store ."
+        },
+        {
+          "id": "cit_2",
+          "title": "Primary Business Goal",
+          "source": "Business Memory: strategic_goals",
+          "type": "business_memory",
+          "excerpt": "Reach $25k Monthly Recurring Revenue with payback < 60 days"
+        },
+        {
+          "id": "cit_3",
+          "title": "Initial Target Customer Avatar",
+          "source": "Business Memory: customer_profiles",
+          "type": "business_memory",
+          "excerpt": "Market segment specified during onboarding."
+        }
+      ],
+      "verified_facts": [
+        "Validated against active business profile & memories."
+      ],
+      "user_provided_info": [
+        "Profile assumptions loaded."
+      ],
+      "estimates": [
+        "Calculated projection based on 7-factor leverage scoring."
+      ],
+      "assumptions": [
+        "Operating within baseline category benchmarks."
+      ],
+      "hypotheses": [
+        "Executing highest-leverage task accelerates customer validation."
+      ],
+      "created_at": "2026-09-06T17:48:57.000Z"
+    },
+    {
+      "id": "msg_9e35a8075cb3c6ec",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "user",
+      "content": "is pay as you go  easy buy",
+      "created_at": "2026-09-06T17:58:47.308Z"
+    },
+    {
+      "id": "msg_557cf48bb2c01d8d",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "assistant",
+      "content": "### Analysis: Pay-As-You-Go (PAYG) vs. \"EasyBuy\" for Solar Cooling\n\nTo give you an accurate, practical answer for your shop in **Ikot Ekpene**, we must clarify two different things that people often mix up in Nigeria:\n\n1. **\"EasyBuy\" (The Consumer Financing Platform):** EasyBuy operates across Nigeria primarily to finance **smartphones and small electronics**. They generally **do not finance commercial solar systems, inverters, or solar deep freezers**.\n2. **Pay-As-You-Go (PAYG) Solar Providers:** Companies like **Sun King, Koolboks, Lumos, or d.light** offer dedicated PAYG clean energy systems where you pay a deposit followed by daily, weekly, or monthly installments.\n\n---\n\n### Evidence & Assumptions Breakdown\n\n* **[USER-PROVIDED]:** Location is Ikot Ekpene, Akwa Ibom State; $0 current capital; immediate goal is cooling drinks to generate revenue.\n* **[VERIFIED FACT]:** Standard phone-financing platforms (like EasyBuy/PalmPay) do not cover solar refrigeration assets. Dedicated PAYG solar companies require identity verification (NIN/BVN), a down payment (typically 15% to 30%), and a phone-based repayment lock system (the unit shuts down remotely if daily payments are missed).\n* **[VERIFIED FACT]:** A small lighting/fan solar kit cannot run a drink-cooling chest freezer. Only dedicated **DC Inverter Solar Freezers** (e.g., Koolboks, Sun King Solar Freezer) or heavy 1.5kVA+ inverter systems support refrigeration.\n* **[ESTIMATE]:** A commercial PAYG solar freezer in Nigeria typically requires a down payment of **₦60,000 to ₦150,000**, with daily payments ranging from **₦1,500 to ₦3,500** for 12 to 24 months.\n* **[ASSUMPTION]:** You do not currently have the ₦60,000+ required for an initial PAYG deposit today.\n\n---\n\n### How Pay-As-You-Go (PAYG) Solar Actually Works\n\n```\n┌────────────────────────┐      ┌────────────────────────┐      ┌────────────────────────┐\n│   1. DOWN PAYMENT      │ ───► │  2. DAILY / MONTHLY    │ ───► │     3. OWNERSHIP       │\n│  (15% - 30% Upfront)   │      │     INSTALLMENTS       │      │  (After 12 - 24 Mos)   │\n│  e.g., ₦60k - ₦150k    │      │  e.g., ₦1,500 - ₦3k/day│      │   System Unlocked      │\n└────────────────────────┘      └────────────────────────┘      └────────────────────────┘\n```\n\n#### 1. Requirements to Qualify:\n* **National Identification:** NIN and Bank Verification Number (BVN).\n* **Initial Deposit:** You cannot start with ₦0. You must pay an upfront commitment fee/deposit.\n* **Guarantor / Shop Verification:** An agent will visit your shop location in Ikot Ekpene to verify you run an active business.\n\n#### 2. The Advantages:\n* **Lower Entry Barrier:** You do not need the full ₦600,000–₦1,000,000 cash upfront.\n* **Business Asset:** As long as daily drink sales exceed the daily repayment amount, the drinks pay off the machine.\n\n#### 3. The Risks & Traps:\n* **Higher Total Cost:** Over 12–24 months, PAYG interest rates mean you pay 20% to 45% more than the outright cash price.\n* **Automatic Shutdown:** If rainy weather or slow sales mean you cannot pay the daily code, the freezer turns off automatically, risking drink spoilage.\n\n---\n\n### Comparison: Is PAYG Realistic for You This Week?\n\n| Metric | PAYG Solar Freezer (e.g., Koolboks / Sun King) | Ice-Block Cooling Strategy |\n| :--- | :--- | :--- |\n| **Cash Required Today** | ₦60,000 – ₦150,000 (Deposit) | **₦1,500 – ₦3,000 (Today's Ice)** |\n| **Approval Time** | 3 to 10 days (KYC & verification) | **Immediate (Under 2 hours)** |\n| **Risk with $0 Capital** | High (Debt default risk) | **Zero debt risk** |\n| **Immediate Feasibility** | ❌ Cannot start today with $0 | ✅ **Can start immediately** |\n\n---\n\n### The Single Highest-Leverage Next Action\n\nBecause PAYG solar requires an upfront deposit (minimum ₦60,000+) that you do not have today, your priority is to **generate deposit capital through daily ice-cooled drink sales** first.\n\n#### Action Task: Locate the Nearest PAYG Solar Agent & Start the Deposit Fund\n* **Objective:** Find the exact down-payment terms for a DC solar freezer in Ikot Ekpene while using ice cooling to accumulate that cash.\n* **Estimated Time:** 2 hours.\n* **Execution Steps:**\n  1. Visit the commercial electronics/solar cluster in Ikot Ekpene (or authorized dealers for Sun King / Koolboks / d.light).\n  2. Ask for the **Productive Use / Solar Freezer** catalog and request the exact **down payment amount** and **daily repayment rate**.\n  3. Run the daily ice-block cooling in your shop, setting aside **₦3,000/day** in net drink profits until your deposit target is reached.\n\n**Validation Criteria:** You obtain the exact deposit figure in Naira from a verified agent and know how many days of ice-cooled drink sales are required to unlock it.\n\n***\n\n*Do you currently have an insulated box or an unplugged deep freezer in your shop where you can put ice blocks right now?*",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Business Model & Offering",
+          "source": "Business Memory: business_fundamentals",
+          "type": "business_memory",
+          "excerpt": "de chrino global enterprise operates as a physical business delivering: To sell in a provision store ."
+        },
+        {
+          "id": "cit_2",
+          "title": "Primary Business Goal",
+          "source": "Business Memory: strategic_goals",
+          "type": "business_memory",
+          "excerpt": "Reach $25k Monthly Recurring Revenue with payback < 60 days"
+        },
+        {
+          "id": "cit_3",
+          "title": "Initial Target Customer Avatar",
+          "source": "Business Memory: customer_profiles",
+          "type": "business_memory",
+          "excerpt": "Market segment specified during onboarding."
+        }
+      ],
+      "verified_facts": [
+        "Validated against active business profile & memories."
+      ],
+      "user_provided_info": [
+        "Profile assumptions loaded."
+      ],
+      "estimates": [
+        "Calculated projection based on 7-factor leverage scoring."
+      ],
+      "assumptions": [
+        "Operating within baseline category benchmarks."
+      ],
+      "hypotheses": [
+        "Executing highest-leverage task accelerates customer validation."
+      ],
+      "created_at": "2026-09-06T17:58:55.204Z"
+    },
+    {
+      "id": "msg_f4d875378613df9d",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "user",
+      "content": "how can I start a new business ",
+      "created_at": "2026-09-06T19:08:57.611Z"
+    },
+    {
+      "id": "msg_0c3a24a882388923",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "assistant",
+      "content": "### Strategic Framework: Starting a New Business with $0 Capital\n\nTo start a new business when you have **$0 capital**, you must shift your mindset from \"investing in assets\" (buying equipment) to \"investing in service\" (selling labor, skills, or brokering value). Since you already have 4 years of experience in the foodstuff industry, you have **Market Intelligence**—the most valuable asset for a founder.\n\n---\n\n### Evidence & Assumptions Breakdown\n\n*   **[USER-PROVIDED]**: 4 years of experience in foodstuff; 80 hours/week available; currently $0 capital.\n*   **[VERIFIED FACT]**: Businesses started with $0 capital must rely on **Service-Based Revenue** (selling your time/skill) or **Middleman/Brokerage Models** (connecting buyers to sellers) to generate \"Seed Capital.\"\n*   **[ESTIMATE]**: In the Nigerian retail context, a \"Provision Store\" requires high inventory turnover to be profitable. Without capital, you cannot hold inventory. Therefore, you must pivot to a **\"Pre-Order\" or \"Procurement\" model**.\n*   **[ASSUMPTION]**: You have existing relationships with foodstuff wholesalers or suppliers in Ikot Ekpene from your 4 years of experience.\n*   **[HYPOTHESIS]**: You can generate your first ₦50,000 in profit within 14 days by acting as a procurement agent for busy households or small restaurants, rather than trying to stock a physical store yourself.\n\n---\n\n### The \"Zero-Capital\" Business Model: The Procurement Broker\n\nInstead of buying goods to sell (which requires capital), you sell the **convenience of sourcing and delivery**.\n\n1.  **The Model**: You identify 10–20 busy households or small local restaurants in Ikot Ekpene. You offer to source their weekly foodstuff/provision supplies at wholesale prices.\n2.  **The Revenue**: You charge a \"Service/Logistics Fee\" (e.g., ₦2,000–₦5,000 per delivery) or negotiate a small commission from the wholesaler for bringing them bulk orders.\n3.  **The Flow**: \n    *   Client pays you upfront for the goods.\n    *   You go to the market, buy the goods at wholesale prices.\n    *   You keep the difference (the margin) or the service fee.\n    *   You deliver the goods.\n\n---\n\n### 7-Factor Leverage Matrix Analysis\n\n| Factor | Rating | Reasoning |\n| :--- | :--- | :--- |\n| **Demand** | High | Everyone needs food/provisions daily. |\n| **Founder Fit** | 10/10 | You have 4 years of experience in this exact niche. |\n| **Capital** | $0 | No inventory purchase required. |\n| **Speed to Cash** | 24-48 hrs | You can get your first order today. |\n| **Competition** | Medium | You compete with market stalls; you win on *convenience*. |\n| **Risk** | Low | You only buy what is already paid for. |\n| **Scalability** | Medium | Can scale by adding more clients or delivery riders. |\n\n---\n\n### The Single Highest-Leverage Next Action\n\nYour goal is to generate your first **₦20,000 in profit** to fund your initial inventory or solar deposit. Do not try to open a \"store\" yet; open a **\"Procurement Service\"** today.\n\n#### Action Task: The \"10-Customer\" Outreach\n*   **Objective**: Secure 3 confirmed orders for foodstuff/provision procurement by end of day tomorrow.\n*   **Estimated Time**: 4 hours.\n*   **Execution Steps**:\n    1.  **Identify**: List 10 people you know (neighbors, local business owners, busy professionals) who hate going to the market.\n    2.  **Offer**: \"I am running a professional foodstuff procurement service. Give me your list, I will source the best quality at wholesale prices, and deliver to your doorstep for a flat fee of ₦[X].\"\n    3.  **Collect**: Get the list and the money upfront.\n    4.  **Execute**: Go to the market, buy the items, and deliver.\n    5.  **Save**: Put 100% of the service fee into your \"Business Growth Fund.\"\n\n**Validation Criteria**: You successfully complete 3 deliveries and earn your first service fee.\n\n***\n\n**Founder Note**: Do not spend the money you make. Every Naira earned from this service is \"Seed Capital.\" Once you have ₦50,000–₦100,000, you can then buy small quantities of fast-moving goods to keep in your store.\n\n**Report back**: Once you have completed your first 3 deliveries, tell me the total profit made so we can calculate how many cycles you need to reach your $25k goal.",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Business Model & Offering",
+          "source": "Business Memory: business_fundamentals",
+          "type": "business_memory",
+          "excerpt": "de chrino global enterprise operates as a physical business delivering: To sell in a provision store ."
+        },
+        {
+          "id": "cit_2",
+          "title": "Primary Business Goal",
+          "source": "Business Memory: strategic_goals",
+          "type": "business_memory",
+          "excerpt": "Reach $25k Monthly Recurring Revenue with payback < 60 days"
+        },
+        {
+          "id": "cit_3",
+          "title": "Initial Target Customer Avatar",
+          "source": "Business Memory: customer_profiles",
+          "type": "business_memory",
+          "excerpt": "Market segment specified during onboarding."
+        }
+      ],
+      "verified_facts": [
+        "Validated against active business profile & memories."
+      ],
+      "user_provided_info": [
+        "Profile assumptions loaded."
+      ],
+      "estimates": [
+        "Calculated projection based on 7-factor leverage scoring."
+      ],
+      "assumptions": [
+        "Operating within baseline category benchmarks."
+      ],
+      "hypotheses": [
+        "Executing highest-leverage task accelerates customer validation."
+      ],
+      "created_at": "2026-09-06T19:09:07.826Z"
+    },
+    {
+      "id": "msg_6471d0e0216761ab",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "user",
+      "content": "dfgggbbbbbbbbbb",
+      "created_at": "2026-09-06T19:12:20.944Z"
+    },
+    {
+      "id": "msg_778b7ebf2fbc0e88",
+      "conversation_id": "conv_81f49d749e3607d2",
+      "role": "assistant",
+      "content": "### Strategic Reset: Focus & Execution\n\nIt appears you are experiencing frustration or testing the system. As your **Venturevo AI** partner, I am here to ensure you don't waste your 80 hours of weekly capacity on unproductive cycles. \n\nTo reach your **$25,000 Monthly Recurring Revenue (MRR)** goal, we must move away from \"wishful thinking\" and focus on **High-Velocity Cash Flow**.\n\n---\n\n### Evidence & Assumptions Breakdown\n\n*   **[USER-PROVIDED]**: You have 80 hours/week to dedicate to this business and 4 years of industry experience.\n*   **[VERIFIED FACT]**: A $25,000 MRR (approx. ₦38,000,000/month at current exchange rates) is a high-scale retail target. It cannot be achieved by a standard, low-margin provision store alone. It requires **High-Volume Distribution** or **Value-Added Services**.\n*   **[ESTIMATE]**: To hit this target, you need to move from \"selling to neighbors\" to \"supplying small businesses/restaurants\" (B2B).\n*   **[ASSUMPTION]**: Your current frustration stems from the gap between your goal and your current $0 capital/low-customer reality.\n*   **[HYPOTHESIS]**: If you stop trying to \"start\" and start \"executing\" on a single B2B procurement contract, you will generate the capital needed for your cooling solution within 14 days.\n\n---\n\n### The 7-Factor Leverage Matrix: Your Reality Check\n\n1.  **Demand**: High (Food/Provisions are essential).\n2.  **Founder Fit**: High (4 years of experience).\n3.  **Capital**: $0 (Constraint: Must use \"Cash-in-Advance\" models).\n4.  **Speed to Customer**: Immediate (If you walk out your door).\n5.  **Competition**: High (Market stalls). *Strategy: Beat them on delivery/service.*\n6.  **Risk**: Low (Only if you never buy inventory with your own money).\n7.  **Scalability**: High (If you move to bulk B2B supply).\n\n---\n\n### The Single Highest-Leverage Next Action\n\nStop searching for \"how to start.\" You are already in the industry. You are currently in the **Validation Phase**. You need to prove you can move product without owning it.\n\n#### Action Task: The \"B2B Procurement Pivot\"\n*   **Objective**: Secure one local restaurant or canteen in Ikot Ekpene that will let you handle their weekly bulk foodstuff procurement.\n*   **Estimated Time**: 5 hours.\n*   **Execution Steps**:\n    1.  **Walk**: Identify 5 local eateries/restaurants within 2km of your shop.\n    2.  **Pitch**: \"I am a professional procurement agent. I know the market prices better than anyone. Give me your weekly shopping list; I will buy at wholesale prices, save you 10% on your total cost, and deliver it to your kitchen for a small service fee.\"\n    3.  **Close**: Get the cash for the goods upfront.\n    4.  **Execute**: Buy the goods, deliver, and keep the service fee.\n    5.  **Repeat**: Do this until you have ₦100,000 in pure profit.\n\n**Validation Criteria**: You secure one restaurant client who pays you to shop for them by this Friday.\n\n***\n\n**Founder, stay focused.** Every moment spent typing random characters is a moment lost in the market. **Go to the restaurants.** Report back with the name of the first business that agrees to let you shop for them. That is your path to the $25k goal.",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Business Model & Offering",
+          "source": "Business Memory: business_fundamentals",
+          "type": "business_memory",
+          "excerpt": "de chrino global enterprise operates as a physical business delivering: To sell in a provision store ."
+        },
+        {
+          "id": "cit_2",
+          "title": "Primary Business Goal",
+          "source": "Business Memory: strategic_goals",
+          "type": "business_memory",
+          "excerpt": "Reach $25k Monthly Recurring Revenue with payback < 60 days"
+        },
+        {
+          "id": "cit_3",
+          "title": "Initial Target Customer Avatar",
+          "source": "Business Memory: customer_profiles",
+          "type": "business_memory",
+          "excerpt": "Market segment specified during onboarding."
+        }
+      ],
+      "verified_facts": [
+        "Validated against active business profile & memories."
+      ],
+      "user_provided_info": [
+        "Profile assumptions loaded."
+      ],
+      "estimates": [
+        "Calculated projection based on 7-factor leverage scoring."
+      ],
+      "assumptions": [
+        "Operating within baseline category benchmarks."
+      ],
+      "hypotheses": [
+        "Executing highest-leverage task accelerates customer validation."
+      ],
+      "created_at": "2026-09-06T19:12:28.445Z"
+    },
+    {
+      "id": "msg_7334d66e7a1b3a72",
+      "conversation_id": "conv_2f2324e79b02fd37",
+      "role": "user",
+      "content": "What is our top priority this week?",
+      "created_at": "2026-09-06T19:16:12.502Z"
+    },
+    {
+      "id": "msg_8315a54348ee02b4",
+      "conversation_id": "conv_2f2324e79b02fd37",
+      "role": "assistant",
+      "content": "### VENTIREVO AI: STRATEGIC BRIEFING\n**Subject:** Q3 Growth Acceleration – Week 36 Focus\n\nTo hit your $25,000 MRR target by March 2027, we must aggressively reduce your CAC and shorten the sales cycle. Your current outbound strategy is failing because it sells \"software\" rather than \"found money.\" Logistics operators are drowning in carrier overcharges; your software is the tool that stops the bleeding.\n\n#### [VERIFIED FACT]\n*   **Current MRR:** $8,400.\n*   **Gap to Goal:** $16,600 MRR (approx. 33 new distribution hubs at $499/mo).\n*   **Value Prop:** You are currently selling a 3.2% recovery rate on freight invoices.\n\n#### [USER-PROVIDED]\n*   **Constraint:** Onboarding is currently an 18-day bottleneck due to custom CSV schema mapping.\n\n#### [ESTIMATE]\n*   **Sales Cycle Impact:** By shifting from a \"demo-first\" to an \"audit-first\" approach (using the Lead Magnet), you can reduce the discovery phase from 38 days to <15 days by providing immediate, quantifiable ROI before the first meeting.\n\n#### [ASSUMPTION]\n*   **Conversion Logic:** If a prospect sees their own 3.2% billing leakage calculated in a 1-page tool, the \"Switching Barrier\" (Legacy EDI) becomes a secondary concern compared to the immediate financial gain of stopping the leak.\n\n#### [HYPOTHESIS]\n*   **The \"Audit-Hook\" Strategy:** Prospects will prioritize onboarding if they have already seen a personalized report showing exactly how much money they lost last month due to carrier discrepancies.\n\n---\n\n### STRATEGIC DIAGNOSIS\nYour bottleneck is not the product; it is the **Entry Hook**. Cold outreach targeting \"Operations Directors\" fails because they don't want another software tool to manage; they want the 3.2% of revenue they are currently losing to carrier errors back in their pocket.\n\n**The Shift:** Stop selling \"Automation.\" Start selling \"Found Money.\"\n\n---\n\n### HIGHEST-LEVERAGE NEXT ACTION\n**Task:** Build and Deploy the \"Manifest Discrepancy Calculator\" (Lead Magnet).\n\n*   **Objective:** Create a simple, web-based tool where a prospect uploads a sample anonymized carrier invoice (CSV/PDF) and receives a 1-page PDF report showing their \"Estimated Monthly Leakage\" based on your 3.2% benchmark.\n*   **Time Allocation:** 6 Hours.\n*   **Validation Criteria:** \n    1.  The tool must generate a report in under 60 seconds.\n    2.  The report must explicitly state: *\"You are likely losing $[X] per month in carrier overcharges. ApexFlow recovers this automatically.\"*\n    3.  Include a \"Book Audit Consultation\" CTA directly on the report.\n*   **Why this is #1:** This bypasses the \"cold outreach\" noise. You are no longer asking for time; you are providing a financial audit. It creates an immediate, evidence-based reason for the prospect to engage, drastically shortening the sales cycle.\n\n**Report back once the calculator is live.** We will then pivot to the \"3.2% Billing Leakage\" email sequence to drive traffic to this specific asset.",
+      "citations": [
+        {
+          "id": "cit_1",
+          "title": "Core Value Proposition",
+          "source": "Business Memory: business_fundamentals",
+          "type": "business_memory",
+          "excerpt": "Eliminates logistics order discrepancy disputes between 3PL warehouses and freight carriers automatically."
+        },
+        {
+          "id": "cit_2",
+          "title": "Base SaaS Subscription & Gross Margin",
+          "source": "Business Memory: pricing_and_unit_economics",
+          "type": "business_memory",
+          "excerpt": "Base price is $499/month per facility. Gross profit margin on SaaS revenue is currently 88%."
+        },
+        {
+          "id": "cit_3",
+          "title": "Target Customer Economic Buyer",
+          "source": "Business Memory: customer_profiles",
+          "type": "business_memory",
+          "excerpt": "VP of Logistics or Director of Warehouse Operations at mid-sized independent 3PL firms (5 to 50 employees)."
+        }
+      ],
+      "verified_facts": [
+        "Validated against active business profile & memories."
+      ],
+      "user_provided_info": [
+        "Profile assumptions loaded."
+      ],
+      "estimates": [
+        "Calculated projection based on 7-factor leverage scoring."
+      ],
+      "assumptions": [
+        "Operating within baseline category benchmarks."
+      ],
+      "hypotheses": [
+        "Executing highest-leverage task accelerates customer validation."
+      ],
+      "created_at": "2026-09-06T19:16:26.142Z"
+    }
+  ],
+  "research_sessions": [
+    {
+      "id": "res_001",
+      "business_id": "biz_demo_venturevo_001",
+      "topic": "3PL Cold Storage Compliance & Freight Audit Trends",
+      "status": "completed",
+      "summary": "Growing regulatory pressure on pharmaceutical and food supply chains has accelerated demand for automated audit compliance verification.",
+      "findings": [
+        {
+          "claim": "Cold storage facilities face up to $25k in penalties per failed temperature audit inspection.",
+          "reliability": "verified_fact",
+          "evidence": "Industry compliance guidelines and logistics risk assessment reports."
+        }
+      ],
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "research_sources": [
+    {
+      "id": "src_001",
+      "research_session_id": "res_001",
+      "title": "Global Supply Chain Logistics Risk Report 2025/2026",
+      "snippet": "Independent freight forwarders cite reconciliation overhead as their top operational cost increase after fuel prices.",
+      "reliability_score": 92,
+      "verified": true,
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "uploads": [],
+  "generated_content": [
+    {
+      "id": "gen_001",
+      "business_id": "biz_demo_venturevo_001",
+      "content_type": "sales_script",
+      "title": "3-Minute Manifest Audit Cold Email Script",
+      "content": "Subject: Quick question regarding {{Warehouse_Name}}'s carrier discrepancy rate\n\nHi {{First_Name}},\n\nMost 3PL operations leaders we speak with in {{City}} are seeing about 3.2% in unexpected carrier surcharge discrepancies on weekly freight invoices.\n\nWe built a lightweight reconciliation engine for 3PL facilities. If you send over a single redacted CSV manifest from last month, we will run a 3-minute automated audit and return an itemized leakage report at zero cost.\n\nWould you be open to seeing if any carrier refunds are hiding in last month's billing?\n\nBest,\n{{Your_Name}}\nApexFlow Automation",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "competitors": [
+    {
+      "id": "comp_001",
+      "business_id": "biz_demo_venturevo_001",
+      "name": "LegacyFreight TMS",
+      "website_url": "https://example-legacytms.com",
+      "value_proposition": "Full-suite on-premise transportation management and carrier dispatching.",
+      "pricing_model": "$15,000 upfront license + $2,500/year maintenance fees.",
+      "target_segment": "Tier-1 enterprise logistics providers (>200 staff).",
+      "strengths": [
+        "Deep ERP integrations",
+        "Established brand legacy",
+        "Comprehensive manifest archiving"
+      ],
+      "weaknesses": [
+        "Extremely slow 6-month onboarding",
+        "Clunky UI with no automated discrepancy auditor",
+        "Prohibitive pricing for mid-market 3PLs"
+      ],
+      "market_quadrant": "general_incumbent",
+      "x_position": 85,
+      "y_position": 30,
+      "counter_strategy": "Position ApexFlow as lightweight, cloud-native discrepancy auditor that plugs into their existing TMS in 15 minutes with zero upfront setup fees.",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "comp_002",
+      "business_id": "biz_demo_venturevo_001",
+      "name": "Manual Audit Consultants Inc.",
+      "website_url": "https://example-freightaudit.com",
+      "value_proposition": "Human invoice auditing team checking freight billing manually.",
+      "pricing_model": "30% contingency fee on all recovered carrier refunds.",
+      "target_segment": "Mid-sized 3PL and eCommerce shippers.",
+      "strengths": [
+        "Zero software learning curve",
+        "Contingency pricing feels safe to buyers"
+      ],
+      "weaknesses": [
+        "45-day lag to process audits",
+        "Human calculation errors",
+        "High ongoing revenue extraction"
+      ],
+      "market_quadrant": "budget_leader",
+      "x_position": 40,
+      "y_position": 45,
+      "counter_strategy": "Offer real-time instant automated audits for a flat $499/mo subscription, saving the client the 30% revenue share loss.",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "customer_personas": [
+    {
+      "id": "icp_001",
+      "business_id": "biz_demo_venturevo_001",
+      "persona_name": "Mid-Market Logistics Operations Director",
+      "title_role": "VP of Supply Chain / Director of Logistics Operations",
+      "demographics": "35–55 years old, managing 5–50 warehouse personnel, 2,000–15,000 monthly freight manifests.",
+      "industry_vertical": "Third-Party Logistics (3PL), Cold Storage, Regional Distribution",
+      "acute_pain_points": [
+        "Losing 3% to 5% of monthly revenue in undetected carrier surcharge overcharges",
+        "Warehouse staff spending 12+ hours every Friday manually cross-checking invoice line items against manifests",
+        "Customer disputes caused by unexpected freight surcharge pass-throughs"
+      ],
+      "desired_outcomes": [
+        "Eliminate carrier billing leakage automatically without hiring more audit staff",
+        "Instant reconciliation report ready for Monday carrier dispute claims",
+        "Guaranteed zero-discrepancy invoicing for warehouse end-clients"
+      ],
+      "purchasing_triggers": [
+        "Recent peak season carrier penalty fine > $5,000",
+        "Loss of a key client over delayed manifest reporting",
+        "Quarterly margin review showing unexplained logistics cost creep"
+      ],
+      "high_converting_hooks": [
+        "“Did your carriers overbill you 3.2% last month? We will run a 3-minute audit on 1 redacted manifest for free.”",
+        "“Recover thousands in carrier overcharges before your Friday billing cycle closes.”"
+      ],
+      "retention_tactics": [
+        "Weekly Automated Leakage Recovery Digest showing exact dollar amounts saved",
+        "1-Click Carrier Dispute PDF export generated every billing cycle"
+      ],
+      "journey_stages": [
+        {
+          "stage": "Awareness",
+          "touchpoint": "Cold email with free 1-manifest discrepancy audit offer",
+          "action_trigger": "Uploads 1 test CSV manifest to verify billing leakage"
+        },
+        {
+          "stage": "Consideration",
+          "touchpoint": "Automated 3-minute Discrepancy Breakdown report",
+          "action_trigger": "Sees $840 in actual overcharges from past 30 days"
+        },
+        {
+          "stage": "Decision",
+          "touchpoint": "14-Day Full Facility Pilot with SLA guarantee",
+          "action_trigger": "Enters credit card for $499/mo plan with 100% money-back guarantee"
+        },
+        {
+          "stage": "Retention",
+          "touchpoint": "Monthly ROI review showing net recovery ratio (>5x subscription fee)",
+          "action_trigger": "Annual renewal with additional warehouse facilities"
+        },
+        {
+          "stage": "Advocacy",
+          "touchpoint": "Partner referral program ($200 credit per warm 3PL introduction)",
+          "action_trigger": "Refers 2 regional peer warehouse operators"
+        }
+      ],
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "task_learnings": [
+    {
+      "id": "lrn_001",
+      "task_id": "task_002",
+      "business_id": "biz_demo_venturevo_001",
+      "task_title": "Interview 5 Logistics VPs on Peak Season Reconciliation Bottlenecks",
+      "expected_outcome": "Discover if warehouse managers care about general speed improvements.",
+      "actual_result": "Completed 5 interviews; warehouse managers don’t care about generic speed, but are intensely frustrated by a 3.2% average carrier invoice billing error rate.",
+      "metric_delta": "Identified core pain point resulting in 3.2% surcharge discrepancy benchmark.",
+      "key_learning": "Direct economic pain (lost money) drives 4x higher purchase urgency than generic \"automation\" or \"time savings\".",
+      "promoted_to_memory": true,
+      "created_business_memory_id": "mem_004",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "diagnostic_sessions": [
+    {
+      "id": "diag_001",
+      "business_id": "biz_demo_venturevo_001",
+      "category": "acquisition",
+      "symptom": "Cold outreach email reply rate is stuck under 1.8%.",
+      "five_whys": [
+        "Why? Outbound emails get ignored by Logistics Directors.",
+        "Why? The emails promise generic \"warehouse workflow automation\" which sounds like every other sales pitch.",
+        "Why? We had not anchored our pitch to a specific acute financial loss.",
+        "Why? We were selling features instead of diagnosing their carrier billing dispute losses.",
+        "Why? Root cause: Value proposition lacked proof and risk-reversal, demanding a 30-min demo instead of offering instant tangible audit value."
+      ],
+      "root_cause": "The offer positions the tool as a generic workflow helper rather than an urgent painkiller that recovers 3.2% in carrier overcharges.",
+      "severity": "critical",
+      "prescribed_action": "Replace demo-request outreach with a \"Free 3-Minute Manifest Discrepancy Audit\" hook.",
+      "leverage_score": 94,
+      "generated_task_id": "task_003",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_001",
+      "user_id": "usr_demo_founder_001",
+      "tier": "pro",
+      "state": "ACTIVE",
+      "billing_cycle": "monthly",
+      "currency": "USD",
+      "amount_paid": 19,
+      "current_period_start": "2026-09-06T17:16:01.028Z",
+      "current_period_end": "2026-10-06T17:16:01.030Z",
+      "cancel_at_period_end": false,
+      "payment_method_last4": "4242",
+      "payment_method_brand": "Visa",
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "sub_f0808b7caf4fd2ba",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "tier": "starter",
+      "status": "active",
+      "current_period_start": "2026-09-06T17:28:32.259Z",
+      "current_period_end": "2026-10-06T17:28:32.260Z",
+      "cancel_at_period_end": false,
+      "created_at": "2026-09-06T17:28:32.259Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv_001",
+      "user_id": "usr_demo_founder_001",
+      "subscription_id": "sub_001",
+      "invoice_number": "INV-2026-00892",
+      "amount": 19,
+      "currency": "USD",
+      "status": "paid",
+      "tier": "pro",
+      "billing_cycle": "monthly",
+      "paid_at": "2026-09-06T17:16:01.028Z",
+      "pdf_url": "#receipt-inv-001",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "marketing_assets": [
+    {
+      "id": "mkt_001",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "content_type": "offer",
+      "title": "Zero-Risk Carrier Discrepancy Leakage Audit Offer",
+      "content": "### Grand Slam Offer: 3-Minute Manifest Discrepancy Recovery\n* **Dream Outcome**: Pinpoint and recover thousands in carrier overcharges and surcharge billing errors without switching software or changing daily workflows.\n* **Perceived Likelihood of Achievement**: 100% data-grounded audit using client's actual redacted carrier invoice CSVs.\n* **Time Delay**: 3 minutes from CSV upload to complete itemized discrepancy report.\n* **Effort & Sacrifice**: Zero code integration, zero software installation required.\n* **Pricing & Structure**: Free introductory 1-manifest audit; $499/mo ongoing facility protection plan.\n* **Risk-Reversal Guarantee**: If our automated reconciliation doesn't uncover at least 3x the monthly subscription fee in recoverable disputes within 60 days, we issue a 100% unconditional refund.",
+      "channel": "landing_page",
+      "tags": [
+        "offer",
+        "high-ticket",
+        "risk-reversal"
+      ],
+      "requires_approval": false,
+      "approval_status": "approved",
+      "version": 1,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mkt_002",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "content_type": "sales_message",
+      "title": "Direct LinkedIn DM Outreach: Logistics VPs",
+      "content": "Hi {{First_Name}}, noticed you are directing warehouse ops at {{Company}}.\n\nQuick question: most mid-market 3PL directors in {{City}} are seeing an average 3.2% carrier surcharge leakage on Friday billing runs.\n\nWe built a lightweight reconciliation script specifically for 3PLs. If you send 1 redacted carrier invoice CSV from last month, we will run a 3-minute automated audit and return your exact dispute breakdown at zero cost.\n\nOpen to seeing if any carrier refunds are hiding in last month's numbers?",
+      "channel": "direct_dm",
+      "tags": [
+        "cold_outreach",
+        "b2b",
+        "linkedin"
+      ],
+      "requires_approval": true,
+      "approval_status": "approved",
+      "version": 1,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "mkt_003",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "content_type": "ad",
+      "title": "Meta/LinkedIn Sponsored Direct-Response Ad Copy",
+      "content": "**Hook (Visual & Opening Line)**: \n[Graphic: High-contrast split screen showing a freight invoice vs an automated red-highlighted $1,420 discrepancy notice]\n\"Are your freight carriers overcharging you 3.2% every Friday billing cycle?\"\n\n**Body**:\nIf you operate a 3PL warehouse handling over 2,000 shipments a month, manual invoice auditing takes hours and still misses hidden dimensional surcharges and unbudgeted fuel index spikes.\n\nApexFlow automatically reconciles carrier manifests against agreed rate cards in 3 minutes flat.\n\n**Call to Action**:\nUpload 1 redacted manifest to get your Free Instant Leakage Audit. No credit card required.",
+      "channel": "meta_ads",
+      "tags": [
+        "paid_ads",
+        "direct_response",
+        "b2b"
+      ],
+      "requires_approval": true,
+      "approval_status": "draft",
+      "version": 1,
+      "created_at": "2026-09-06T17:16:01.028Z",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "approval_actions": [
+    {
+      "id": "appr_001",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "action_type": "send_message",
+      "title": "Outbound Cold Email Sequence to 15 Verified 3PL Logistics Directors",
+      "description": "Venturevo Studio prepared personalized outreach emails for 15 qualified prospects in Texas and Ohio using the 3-minute audit hook.",
+      "risk_level": "low",
+      "status": "pending",
+      "channel_or_target": "Cold Email (Sales Outreach)",
+      "payload": {
+        "recipient": "15 qualified logistics directors (ApexFlow ICP list)",
+        "platform": "Email Dispatch API",
+        "content": "Subject: Quick question regarding {{Warehouse_Name}}'s carrier discrepancy rate\n\nHi {{First_Name}}, most 3PL operations leaders in {{City}} are seeing about 3.2% in unexpected carrier surcharge discrepancies...",
+        "metadata": {
+          "estimated_response_rate": "18-24%",
+          "recipients_count": 15
+        }
+      },
+      "proposed_by": "Venturevo Studio Outbound Engine",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "appr_002",
+      "business_id": "biz_demo_venturevo_001",
+      "user_id": "usr_demo_founder_001",
+      "action_type": "spend_budget",
+      "title": "Allocate $150 Pilot Ad Spend to LinkedIn InMail Audit Test",
+      "description": "Test sponsored message delivery targeting Logistics VPs in Austin & Dallas metro areas with the Manifest Discrepancy Calculator.",
+      "risk_level": "financial",
+      "status": "pending",
+      "channel_or_target": "LinkedIn Ads Campaign Budget",
+      "payload": {
+        "financial_amount_usd": 150,
+        "platform": "LinkedIn Campaign Manager",
+        "scheduled_for": "Next 5 days ($30/day)",
+        "metadata": {
+          "target_impressions": 1200,
+          "estimated_cpc": "$4.20"
+        }
+      },
+      "proposed_by": "Growth Sprint Automation",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "admin_plan_limits": [
+    {
+      "tier": "free",
+      "name": "Free",
+      "monthly_price_usd": 0,
+      "annual_price_usd": 0,
+      "max_businesses": 1,
+      "max_ai_requests_per_month": 20,
+      "max_research_sessions_per_month": 3,
+      "max_file_uploads_per_month": 3,
+      "max_file_size_mb": 5,
+      "max_memory_items": 10,
+      "max_active_tasks": 5,
+      "max_content_generations_per_month": 5,
+      "marketing_studio_access": false,
+      "customer_growth_access": false,
+      "team_seats": 1,
+      "role_based_access": false,
+      "priority_processing": false
+    },
+    {
+      "tier": "pro",
+      "name": "Pro",
+      "monthly_price_usd": 19,
+      "annual_price_usd": 190,
+      "max_businesses": 1,
+      "max_ai_requests_per_month": 250,
+      "max_research_sessions_per_month": 30,
+      "max_file_uploads_per_month": 50,
+      "max_file_size_mb": 25,
+      "max_memory_items": 100,
+      "max_active_tasks": 50,
+      "max_content_generations_per_month": 100,
+      "marketing_studio_access": true,
+      "customer_growth_access": true,
+      "team_seats": 1,
+      "role_based_access": false,
+      "priority_processing": true
+    },
+    {
+      "tier": "max",
+      "name": "Max",
+      "monthly_price_usd": 49,
+      "annual_price_usd": 490,
+      "max_businesses": 3,
+      "max_ai_requests_per_month": 1000,
+      "max_research_sessions_per_month": 150,
+      "max_file_uploads_per_month": 200,
+      "max_file_size_mb": 50,
+      "max_memory_items": 500,
+      "max_active_tasks": 200,
+      "max_content_generations_per_month": 500,
+      "marketing_studio_access": true,
+      "customer_growth_access": true,
+      "team_seats": 5,
+      "role_based_access": true,
+      "priority_processing": true
+    }
+  ],
+  "custom_currencies": [
+    {
+      "code": "USD",
+      "symbol": "$",
+      "rate_multiplier": 1,
+      "name": "US Dollar"
+    },
+    {
+      "code": "EUR",
+      "symbol": "€",
+      "rate_multiplier": 0.92,
+      "name": "Euro"
+    },
+    {
+      "code": "GBP",
+      "symbol": "£",
+      "rate_multiplier": 0.79,
+      "name": "British Pound"
+    },
+    {
+      "code": "CAD",
+      "symbol": "CA$",
+      "rate_multiplier": 1.36,
+      "name": "Canadian Dollar"
+    },
+    {
+      "code": "AUD",
+      "symbol": "AU$",
+      "rate_multiplier": 1.52,
+      "name": "Australian Dollar"
+    },
+    {
+      "code": "INR",
+      "symbol": "₹",
+      "rate_multiplier": 83.5,
+      "name": "Indian Rupee"
+    },
+    {
+      "code": "BRL",
+      "symbol": "R$",
+      "rate_multiplier": 5.4,
+      "name": "Brazilian Real"
+    },
+    {
+      "code": "NGN",
+      "symbol": "₦",
+      "rate_multiplier": 1450,
+      "name": "Nigerian Naira"
+    },
+    {
+      "code": "JPY",
+      "symbol": "¥",
+      "rate_multiplier": 155,
+      "name": "Japanese Yen"
+    }
+  ],
+  "usage_records": [
+    {
+      "id": "usg_001",
+      "user_id": "usr_demo_founder_001",
+      "business_id": "biz_demo_venturevo_001",
+      "request_type": "chat",
+      "provider": "gemini",
+      "model": "gemini-3.7-flash",
+      "tokens_in": 620,
+      "tokens_out": 480,
+      "cost_est_usd": 0.00045,
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "referrals": [
+    {
+      "id": "ref_001",
+      "referrer_user_id": "usr_demo_founder_001",
+      "referrer_name": "Elena Rostova",
+      "referred_email": "marcus@texasfreight3pl.com",
+      "referral_code": "VENTUREVO-ELENA-77",
+      "status": "qualified",
+      "reward_type": "credit_usd",
+      "reward_value": 20,
+      "reward_granted": true,
+      "is_fraud_flagged": false,
+      "created_at": "2026-09-01T17:16:01.030Z",
+      "qualified_at": "2026-09-04T17:16:01.030Z",
+      "rewarded_at": "2026-09-04T17:16:01.030Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "aud_3c24acc3aee726cf",
+      "user_id": "usr_demo_founder_001",
+      "action": "DEMO_LOGIN",
+      "resource_type": "users",
+      "resource_id": "usr_demo_founder_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {},
+      "created_at": "2026-09-06T19:16:12.463Z"
+    },
+    {
+      "id": "aud_f301c89dc90c1dcc",
+      "user_id": "usr_demo_founder_001",
+      "action": "DEMO_LOGIN",
+      "resource_type": "users",
+      "resource_id": "usr_demo_founder_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {},
+      "created_at": "2026-09-06T19:16:07.619Z"
+    },
+    {
+      "id": "aud_e5cc2c9b23d5e3e2",
+      "user_id": "usr_demo_founder_001",
+      "action": "DEMO_LOGIN",
+      "resource_type": "users",
+      "resource_id": "usr_demo_founder_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {},
+      "created_at": "2026-09-06T19:15:50.224Z"
+    },
+    {
+      "id": "aud_872eb1882ea4a09a",
+      "user_id": "usr_demo_founder_001",
+      "action": "DEMO_LOGIN",
+      "resource_type": "users",
+      "resource_id": "usr_demo_founder_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {},
+      "created_at": "2026-09-06T19:00:19.239Z"
+    },
+    {
+      "id": "aud_981fb82263e6ef7f",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "action": "BUSINESS_ONBOARDING_COMPLETED",
+      "resource_type": "business",
+      "resource_id": "biz_48efa6abe50916ae",
+      "ip_address": "102.92.24.102, 169.254.169.126",
+      "metadata": {
+        "business_name": "de chrino global enterprise"
+      },
+      "created_at": "2026-09-06T17:41:05.446Z"
+    },
+    {
+      "id": "aud_475d28bbc06bdf23",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "action": "USER_SIGNUP",
+      "resource_type": "users",
+      "resource_id": "usr_17cf839e5b8d1a32",
+      "ip_address": "102.92.24.102, 169.254.169.126",
+      "metadata": {
+        "email": "christyetuk208@gmail.com"
+      },
+      "created_at": "2026-09-06T17:28:32.260Z"
+    },
+    {
+      "id": "aud_001",
+      "user_id": "usr_demo_founder_001",
+      "action": "USER_LOGIN",
+      "resource_type": "auth",
+      "resource_id": "usr_demo_founder_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {
+        "client": "Venturevo Web App",
+        "auth_method": "password"
+      },
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "aud_002",
+      "user_id": "usr_demo_founder_001",
+      "action": "BUSINESS_INITIALIZED",
+      "resource_type": "business",
+      "resource_id": "biz_demo_venturevo_001",
+      "ip_address": "127.0.0.1",
+      "metadata": {
+        "name": "ApexFlow Automation",
+        "stage": "early_revenue"
+      },
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "user_id": "usr_demo_founder_001",
+      "title": "New High-Leverage Strategic Insight",
+      "message": "Venturevo AI identified that repositioning your outbound around the 3.2% carrier billing discrepancy can shorten sales cycles.",
+      "type": "insight",
+      "is_read": false,
+      "link": "/chat",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "notif_002",
+      "user_id": "usr_demo_founder_001",
+      "title": "Task Milestone Completed",
+      "message": "Completed \"Interview 5 Logistics VPs\" and extracted 2 new core business memory items.",
+      "type": "milestone",
+      "is_read": true,
+      "link": "/growth",
+      "created_at": "2026-09-05T17:16:01.030Z"
+    },
+    {
+      "id": "notif_003",
+      "user_id": "usr_demo_founder_001",
+      "title": "Action Requires Approval",
+      "message": "Outbound Cold Email Sequence to 15 Verified 3PL Logistics Directors is waiting for your review.",
+      "type": "approval_required",
+      "is_read": false,
+      "link": "/approvals",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "notif_bffb8a12a4e4e7b4",
+      "user_id": "usr_17cf839e5b8d1a32",
+      "title": "Business Onboarding Complete",
+      "message": "Venturevo AI has initialized the business growth system for de chrino global enterprise. Your first high-leverage action is ready.",
+      "type": "milestone",
+      "is_read": false,
+      "link": "/dashboard",
+      "created_at": "2026-09-06T17:41:05.445Z"
+    }
+  ],
+  "feature_flags": [
+    {
+      "id": "ff_001",
+      "key": "enable_location_intelligence",
+      "name": "Hyperlocal Road & Corridor Intelligence",
+      "description": "Enables deep street traffic, high-margin business recommendations, and verified agent leasing network analysis.",
+      "enabled": true,
+      "category": "ai",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "ff_002",
+      "key": "enable_gemini_flash",
+      "name": "Gemini 3.7 Flash Reasoning Core",
+      "description": "Allows real-time streaming and evidence-grounded strategic planning with model resilience.",
+      "enabled": true,
+      "category": "ai",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "ff_003",
+      "key": "enable_file_audits",
+      "name": "Multimodal Document Audits",
+      "description": "Enables PDF, pitch deck, and financial statement diagnostic lens analysis.",
+      "enabled": true,
+      "category": "ai",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "ff_004",
+      "key": "enable_referral_rewards",
+      "name": "Founder Referral Credit Engine",
+      "description": "Give $20, Get $20 referral incentives with automated anti-fraud validation.",
+      "enabled": true,
+      "category": "monetization",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "ff_005",
+      "key": "allow_free_trials",
+      "name": "Pro & Max 14-Day Free Evaluation",
+      "description": "Allow new accounts to test high-tier features with zero commitment.",
+      "enabled": true,
+      "category": "monetization",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    },
+    {
+      "id": "ff_006",
+      "key": "strict_rate_limiting",
+      "name": "Strict Rate Limiting & Safety Shield",
+      "description": "Protects backend from abusive traffic and automated scrapers.",
+      "enabled": true,
+      "category": "security",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "system_errors": [
+    {
+      "id": "err_001",
+      "error_type": "TRANSIENT_AI_DEMAND_SPIKE",
+      "endpoint": "/api/ai/chat/stream",
+      "message": "High upstream load detected; auto-switched to resilient backup model seamlessly.",
+      "status_code": 503,
+      "occurred_at": "2026-09-06T17:01:01.030Z"
+    }
+  ],
+  "road_location_reports": [
+    {
+      "id": "loc_001",
+      "road_name": "Allen Avenue, Ikeja",
+      "city": "Lagos",
+      "state_or_region": "Lagos State",
+      "country": "Nigeria",
+      "commercial_vibe": "High-Density Commercial & Financial Corridor",
+      "traffic_density": "Extremely High",
+      "purchasing_power_tier": "Middle-Class",
+      "anchor_commercial_magnets": [
+        "Commercial Banks (Access, GTBank, Zenith)",
+        "Telecom & Corporate Headquarters",
+        "Fast Food Chains & High-End Bakeries",
+        "Computer & Electronics Showrooms"
+      ],
+      "road_study": {
+        "power_status": "Frequent Outages / Band D (2-4 hrs grid power/day) — Requires solar inverter or silent generator.",
+        "solar_necessity_score": 9,
+        "foot_traffic_volume": "Extremely Dense — 25,000+ daily pedestrians (commuters, corporate workers, shoppers).",
+        "vehicle_traffic_flow": "Continuous Danfo, Keke NAPEP, and private commuter flow with junction bottlenecks.",
+        "market_and_anchors": [
+          "Allen Roundabout Commercial Strip",
+          "4 Commercial Bank Branches & ATMs",
+          "Ikeja Bus Terminal Hub",
+          "Computer Village Crossing"
+        ],
+        "existing_crowded_businesses": [
+          "POS Kiosks (18 on this road)",
+          "Barbershops (12)",
+          "Pepper Soup & Beer Parlors (8)",
+          "Basic Tailoring (7)"
+        ],
+        "people_lacking_gaps": [
+          "Reliable solar rapid phone charging & power bank rental station",
+          "Clean chilled packaged grab-and-go breakfast & cold-brew smoothies",
+          "Instant high-speed laser printing & document digitization hub",
+          "Solar-powered ice block & bulk chilled beverage distribution"
+        ],
+        "best_road_side": "Right side heading towards Allen Roundabout / Oshodi corridor (High morning foot traffic and afternoon shade)."
+      },
+      "recommended_businesses": [
+        {
+          "id": "idea_001",
+          "title": "Solar Phone Rapid Charging, Power Bank Rental & Express Device Doctor",
+          "sector": "Renewable Power & Consumer Electronics Support",
+          "target_audience": "Office commuters, transit passengers, bank security, and market shoppers with low battery",
+          "estimated_monthly_revenue_local": "₦4,800,000 – ₦7,500,000 NGN",
+          "estimated_monthly_revenue_usd": "$3,300 – $5,200 USD",
+          "startup_capex_local": "₦2,800,000 NGN",
+          "startup_capex_usd": "$1,900 USD",
+          "net_profit_margin_pct": 62,
+          "breakeven_months": 2,
+          "traffic_synergy_reason": "Constant phone usage by pedestrians and commuters combined with grid blackouts creates non-stop daily charging demand.",
+          "why_it_will_blow_2_lines": "1. Solves the blackout crisis on this road where 80% of phones die by 2 PM.\n2. Generates instant daily cash flow with 62% net margin before sunset.",
+          "high_margin_products": [
+            "15-Min Rapid Boost Charging (₦300/charge — 90% margin)",
+            "Daily Power Bank Rental with Deposit (₦500/day — 85% margin)",
+            "Certified Fast Charging Cables & OTG Adapters (₦2,500 — 60% margin)"
+          ],
+          "key_risks_and_mitigation": "Power bank theft risk: Require automated biometric or digital phone OTP collateral before releasing power bank."
+        },
+        {
+          "id": "idea_002",
+          "title": "Express Grab-and-Go Healthy Breakfast Bar & Cold Brew Parfaits",
+          "sector": "Quick-Service Food & Beverage",
+          "target_audience": "Corporate professionals and rushed commuters needing swift hygienic morning breakfast",
+          "estimated_monthly_revenue_local": "₦5,500,000 – ₦9,000,000 NGN",
+          "estimated_monthly_revenue_usd": "$3,800 – $6,200 USD",
+          "startup_capex_local": "₦3,500,000 NGN",
+          "startup_capex_usd": "$2,400 USD",
+          "net_profit_margin_pct": 48,
+          "breakeven_months": 3,
+          "traffic_synergy_reason": "25,000 morning pedestrians walking to banks and offices on Allen Ave have no time to cook at home.",
+          "why_it_will_blow_2_lines": "1. Over 10,000 rushed corporate workers pass by every morning looking for quick, clean food.\n2. High-speed prep (under 60 seconds) means massive transaction throughput.",
+          "high_margin_products": [
+            "Fresh Fruit Greek Yogurt Parfaits (₦2,200 — 68% margin)",
+            "Gourmet Toasted Egg-Avocado Wraps (₦2,500 — 55% margin)",
+            "Cold-Brew Zobo / Ginger Detox Bottles (₦1,000 — 75% margin)"
+          ],
+          "key_risks_and_mitigation": "Spoilage risk: Install dedicated solar-powered DC refrigeration and prep based on daily commuter forecast."
+        },
+        {
+          "id": "idea_003",
+          "title": "Express Document Hub: Laser Printing, Exam Portals & Digital Notary",
+          "sector": "Digital Services & Corporate Support",
+          "target_audience": "Job applicants, legal clerks, bank clients needing urgent utility printouts and form submissions",
+          "estimated_monthly_revenue_local": "₦3,800,000 – ₦6,500,000 NGN",
+          "estimated_monthly_revenue_usd": "$2,600 – $4,500 USD",
+          "startup_capex_local": "₦2,200,000 NGN",
+          "startup_capex_usd": "$1,500 USD",
+          "net_profit_margin_pct": 54,
+          "breakeven_months": 3,
+          "traffic_synergy_reason": "Surrounding banks and visa centers frequently require printed bank statements, passport photos, and stamped IDs.",
+          "why_it_will_blow_2_lines": "1. Bank customers line up daily needing urgent printouts, photocopies, and NIN/BVN updates.\n2. Zero inventory expiration risk with pure service margins.",
+          "high_margin_products": [
+            "High-Speed Color Laser Printing (₦150/page — 80% margin)",
+            "Urgent Passport Photos (₦1,500 set — 85% margin)",
+            "Online Form Processing & Plastic ID Lamination (₦1,000 — 70% margin)"
+          ],
+          "key_risks_and_mitigation": "Machine breakdown: Partner with local printer technician on a monthly retainer for same-day repair SLA."
+        }
+      ],
+      "agents": [
+        {
+          "id": "agt_001",
+          "name": "Chief Emeka Okafor",
+          "phone": "+234 803 452 8819",
+          "whatsapp_number": "2348034528819",
+          "whatsapp_link": "https://wa.me/2348034528819?text=Hello%20Chief%20Emeka,%20I%20got%20your%20verified%20contact%20from%20Venturevo%20AI.%20I%20am%20looking%20to%20inspect%20a%20commercial%20shop%20along%20Allen%20Avenue,%20Ikeja.",
+          "agency_name": "Apex Corridors & Commercial Chambers",
+          "rating": 4.9,
+          "reviews_count": 42,
+          "verified": true,
+          "road_name": "Allen Avenue, Ikeja",
+          "city": "Lagos",
+          "available_shops_count": 3,
+          "average_rent_range": "₦1,800,000 – ₦3,500,000/yr",
+          "specialty": "Road-Facing Lockup Shops, Front Kiosks & Corner Plazas"
+        },
+        {
+          "id": "agt_002",
+          "name": "Adewale \"Baba Agent\" Balogun",
+          "phone": "+234 812 994 3210",
+          "whatsapp_number": "2348129943210",
+          "whatsapp_link": "https://wa.me/2348129943210?text=Hello%20Mr%20Balogun,%20I%20got%20your%20verified%20contact%20from%20Venturevo%20AI.%20I%20am%20ready%20to%20inspect%20available%20shops%20on%20Allen%20Avenue.",
+          "agency_name": "Crown Commercial Realty Network",
+          "rating": 4.8,
+          "reviews_count": 29,
+          "verified": true,
+          "road_name": "Allen Avenue, Ikeja",
+          "city": "Lagos",
+          "available_shops_count": 2,
+          "average_rent_range": "₦1,500,000 – ₦2,800,000/yr",
+          "specialty": "Ground Floor Retail & High-Footfall Transit Hubs"
+        }
+      ],
+      "financing_guide": {
+        "total_startup_capital_ngn": 2800000,
+        "total_startup_capital_usd": 1900,
+        "thrift_esusu_plan": "Join a 10-member daily ₦5,000 Esusu thrift rotation (₦50,000/day pool). Request Slot #1 or #2 to collect a ₦1,500,000 lump sum within 30 days.",
+        "personal_bootstrap_strategy": "Apply the 70/20/10 rule: 70% living essentials, 20% dedicated business capital fund, 10% emergency buffer. Save ₦150,000/mo over 4 months.",
+        "family_angel_script": "Pitch 2 trusted family mentors with a 20% equity stake or 15% guaranteed return after 6 months using the Venturevo 1-Page Road Feasibility Sheet.",
+        "recommended_loan_apps": [
+          {
+            "name": "FairMoney SME Credit",
+            "max_amount": "₦3,000,000",
+            "speed": "5 Minutes",
+            "interest": "3.5% - 5%/mo",
+            "best_for": "Fast working capital"
+          },
+          {
+            "name": "PalmPay / OPay Business Overdraft",
+            "max_amount": "₦1,500,000",
+            "speed": "Instant",
+            "interest": "Collateral-free daily tier",
+            "best_for": "POS & inventory cashflow"
+          },
+          {
+            "name": "Carbon SME Loan",
+            "max_amount": "₦5,000,000",
+            "speed": "24 Hours",
+            "interest": "4%/mo",
+            "best_for": "Shop lease & solar equipment"
+          },
+          {
+            "name": "Bank of Industry (BOI) Micro-Fund",
+            "max_amount": "₦10,000,000",
+            "speed": "3 Weeks",
+            "interest": "9% per annum",
+            "best_for": "Multi-unit corridor expansion"
+          }
+        ],
+        "supplier_credit_hack": "Pay 50% upfront for inventory on Day 1; negotiate remaining 50% on 14-day rolling supplier credit once your first 3 weekly payments clear on time."
+      },
+      "agent_leasing_protocol": {
+        "overview": "Venturevo strict protocol to inspect, negotiate, and lease commercial shops on Allen Avenue without losing money to roadside scammers.",
+        "fee_structure_guide": [
+          "Standard Agency Fee: 10% of 1 Year Total Rent (Negotiate down to 5% if paying 2 years upfront).",
+          "Legal / Agreement Fee: 10% of 1 Year Rent (Ensures solicitor prepares stamped tenancy agreement).",
+          "Caution Deposit: Fixed ₦150,000 – ₦300,000 refundable damages buffer.",
+          "Service Charge / Security Levy: ₦25,000 – ₦50,000/month covering night guards and estate cleaning."
+        ],
+        "inspection_checklist": [
+          "Verify active power feeder line (Band A vs Band B) and transformer stability.",
+          "Confirm dedicated parking space or safe off-street customer drop-off lane.",
+          "Check rainy season drainage history — confirm ground floor does not flood during heavy storms.",
+          "Verify permission for exterior lighted fascia signage (LASAA compliance in Lagos).",
+          "Confirm landlord allows generator installation or solar panel rooftop mounting."
+        ],
+        "verification_steps": [
+          "Never pay cash or personal bank account transfers to an unverified middleman.",
+          "Request the Landlord’s Title Document (C of O, Deed of Assignment, or Family Letter).",
+          "Demand an in-person physical meeting with the registered Landlord or their licensed attorney before transferring rental funds.",
+          "Ensure payment receipt clearly states property address, unit number, lease start/end dates, and landlord full name."
+        ],
+        "red_flags_to_avoid": [
+          "Agent refuses to let you meet the property owner in person.",
+          "Agent pressures you to pay a \"commitment deposit\" before seeing the interior of the shop.",
+          "Multiple competing agents showing the exact same vacant shop with conflicting rent prices.",
+          "Existing tenant has not fully vacated or is in court litigation with landlord."
+        ],
+        "safety_warning": "⚠️ Call 2 agents to compare price. Don't pay before seeing shop. Venturevo is not responsible.",
+        "sample_agent_brief": "Good day. I represent an expanding corporate retail brand seeking a 30m² – 60m² ground-floor commercial lockup shop or front kiosk along Allen Avenue, Ikeja. Budget is ₦2.5M – ₦4.5M/annum. Must have high foot traffic, dedicated prepaid meter, and clear legal title. Kindly share verified listings for immediate joint inspection.",
+        "best_side_of_road_tip": "Position your shop on the Right Hand Side heading towards Allen Roundabout. Morning pedestrians walk on this side to reach banks and bus stops, and the afternoon sun is blocked by taller buildings giving your customers cool shade."
+      },
+      "scaling_roadmap": {
+        "phase_1_launch": {
+          "duration": "Months 1 – 6",
+          "target_metric": "₦5,000,000/mo gross revenue with 40%+ net profit margin",
+          "actions": [
+            "Secure prime road-facing lockup shop with 1-year lease and low upfront capex.",
+            "Install eye-catching roadside signage and launch 1-for-1 opening promotional campaign for local office workers.",
+            "Build direct WhatsApp loyalty database of 500+ repeat corporate customers."
+          ]
+        },
+        "phase_2_multi_unit": {
+          "duration": "Months 6 – 24",
+          "target_metric": "₦35,000,000/mo across 5 high-traffic corridor outlets",
+          "actions": [
+            "Replicate model on complementary arterial roads (e.g. Admiralty Way Lekki, Ring Road Ibadan, Wuse 2 Abuja).",
+            "Standardize SOPs, inventory management POS, and centralized kitchen/supplier contracts.",
+            "Appoint store managers with performance profit-sharing incentives."
+          ]
+        },
+        "phase_3_supply_chain": {
+          "duration": "Years 2 – 5",
+          "target_metric": "₦200,000,000/mo ($140,000/mo) with centralized packaging & distribution",
+          "actions": [
+            "Establish central warehouse/processing facility in industrial zone to capture wholesale 60%+ margins.",
+            "Launch corporate B2B supply contracts to banks, tech campuses, and supermarket chains.",
+            "Automate logistics dispatch with dedicated refrigerated delivery vans."
+          ]
+        },
+        "phase_4_enterprise_conglomerate": {
+          "duration": "Year 5+",
+          "target_metric": "Billionaire enterprise valuation (₦10B+ / $10M+ ARR) and nationwide franchise network",
+          "actions": [
+            "Roll out nationwide master-franchising across all 36 states and major West African metros (Accra, Nairobi, Kigali).",
+            "Acquire key upstream raw material producers (backward integration).",
+            "Position company for private equity institutional investment, commercial paper debt financing, or NGX public listing."
+          ]
+        }
+      },
+      "daily_actions": [
+        {
+          "day_number": 1,
+          "title": "Roadside Foot-Traffic & Kiosk Scouting",
+          "objective": "Conduct a 45-minute physical walk on Allen Avenue between 8:00 AM – 9:30 AM to count morning commuter foot traffic and identify 3 potential vacant stalls.",
+          "step_by_step": [
+            "Stand near the major bank junction for 15 minutes and count how many pedestrians pass by.",
+            "Note down all vacant kiosks or shops with \"To Let\" signs.",
+            "Photograph the best 3 frontage locations for your records."
+          ],
+          "target_metric": "Identify at least 3 viable road-facing lockup units.",
+          "completed": true,
+          "completed_at": "2026-09-06T17:16:01.028Z"
+        },
+        {
+          "day_number": 2,
+          "title": "Agent Call & Rent Negotiation (20% Off Target)",
+          "objective": "Contact 2 verified commercial agents, inspect the vacant shops, and negotiate the annual rent down by 15-20% using the Venturevo script.",
+          "step_by_step": [
+            "Send WhatsApp brief to Chief Emeka and Baba Agent.",
+            "Inspect the selected shop with pre-prepared inspection checklist.",
+            "Meet the actual titleholder/landlord and request 20% discount for paying 1 year upfront."
+          ],
+          "target_metric": "Secure confirmed lease terms below ₦2,500,000/yr.",
+          "completed": false
+        },
+        {
+          "day_number": 3,
+          "title": "Wholesale Supplier Lock-In & Equipment Setup",
+          "objective": "Procure core operational equipment and establish 14-day rolling credit with 2 direct wholesale distributors.",
+          "step_by_step": [
+            "Order solar charging / prep equipment at wholesale dealer depot.",
+            "Negotiate 50% down payment with 14-day credit terms on subsequent stock.",
+            "Set up digital POS and accounting ledger on phone."
+          ],
+          "target_metric": "Save 25% on procurement compared to retail pricing.",
+          "completed": false
+        },
+        {
+          "day_number": 4,
+          "title": "Roadside Signage & 200 Flyer Blast",
+          "objective": "Mount bright road-facing signage and distribute 200 punchy promotional vouchers to commuters and office staff.",
+          "step_by_step": [
+            "Mount eye-catching road signage visible from 50 meters away.",
+            "Distribute flyers during morning and evening rush hours with opening offer.",
+            "Collect 50 WhatsApp phone numbers for VIP launch discounts."
+          ],
+          "target_metric": "50 direct pre-launch customer phone leads.",
+          "completed": false
+        },
+        {
+          "day_number": 5,
+          "title": "Grand Opening & First ₦50,000 Revenue Day",
+          "objective": "Launch official operations at 7:30 AM, welcome your first 40 paying customers, and log daily sales in Venturevo.",
+          "step_by_step": [
+            "Open shop by 7:15 AM sharp before the morning commuter rush.",
+            "Execute fast 60-second service delivery for all customers.",
+            "Log total sales, expenses, and net profit at closing in the Venturevo Daily Sales Logger."
+          ],
+          "target_metric": "Achieve minimum ₦50,000 gross revenue on Day 1.",
+          "completed": false
+        }
+      ],
+      "highest_leverage_next_action": "Perform on-site foot traffic count on Allen Avenue between 12:30 PM – 2:00 PM and connect with 2 verified local commercial agents using the Venturevo Agent Protocol.",
+      "created_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "daily_sales_logs": [
+    {
+      "id": "dsl_001",
+      "user_id": "usr_demo_founder_001",
+      "date": "2026-09-05",
+      "road_name": "Allen Avenue, Ikeja",
+      "business_name": "Solar Phone Rapid Charging & Tech Kiosk",
+      "revenue": 48500,
+      "expenses": 12000,
+      "net_profit": 36500,
+      "customers_served": 47,
+      "challenge_faced": "Grid power was out from 10 AM to 4 PM, but solar batteries held up perfectly. Ran low on iPhone lightning charging cables by 3 PM.",
+      "coach_encouragement": "Bro, you did amazing! ₦36,500 net profit on your very first trial day is proof that this road is an absolute goldmine. Over 40 customers means people trust you already. You got this, no gree for poverty!",
+      "coach_action_for_tomorrow": "Tomorrow morning by 8:00 AM, restock 10 extra fast-charging iPhone and Type-C cables from the wholesale market. Put a bold sign outside: \"iPhone & Android 15-Minute Rapid Charging Available Here!\"",
+      "created_at": "2026-09-05T17:16:01.030Z"
+    }
+  ],
+  "user_location_memories": [
+    {
+      "id": "ulm_001",
+      "user_id": "usr_demo_founder_001",
+      "road_name": "Allen Avenue, Ikeja",
+      "city": "Lagos",
+      "state_or_region": "Lagos State",
+      "country": "Nigeria",
+      "selected_business_id": "idea_001",
+      "selected_business_title": "Solar Phone Rapid Charging, Power Bank Rental & Express Device Doctor",
+      "active_day": 2,
+      "financial_freedom_target_date": "2027-09-06",
+      "total_revenue_logged_ngn": 48500,
+      "streak_days": 2,
+      "notes": "User operates on Allen Avenue. Looking to expand with second kiosk at Computer Village by Month 4.",
+      "updated_at": "2026-09-06T17:16:01.028Z"
+    }
+  ],
+  "sessions": {
+    "demo_session_token_founder_001": "usr_demo_founder_001",
+    "tok_b9d8af97ee51009cf9b8be538f2d01080ee1d081a7dde98c": "usr_17cf839e5b8d1a32",
+    "demo_token_d4ff397fd1487ddeda7ba575788f87c6": "usr_demo_founder_001",
+    "demo_token_0ff99317f0bfdb83dabb98a6358405e1": "usr_demo_founder_001",
+    "demo_token_3d39a27cfc178a2f2eef0dcf1a3844a9": "usr_demo_founder_001",
+    "demo_token_439750043c02a6306e3e698fcd13dda6": "usr_demo_founder_001"
+  }
+}

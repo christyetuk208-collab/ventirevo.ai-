@@ -1,0 +1,6 @@
+{
+  "name": "VENTIREVO AI",
+  "description": "#1 Business GPS, Hyperlocal Road Intelligence, Agent Finder, and Daily Billionaire Coach for every road in Nigeria and worldwide.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

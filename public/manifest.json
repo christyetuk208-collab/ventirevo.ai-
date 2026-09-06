@@ -1,0 +1,45 @@
+{
+  "name": "Venturevo AI — AI Business Growth Strategist",
+  "short_name": "Venturevo AI",
+  "description": "Specialized AI Business Growth System. Discover, validate, diagnose, and scale high-margin ventures.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "shortcuts": [
+    {
+      "name": "Ask Venturevo",
+      "short_name": "Ask AI",
+      "description": "Consult your AI Business Growth Strategist",
+      "url": "/?view=chat"
+    },
+    {
+      "name": "Road & Location Intelligence",
+      "short_name": "Locations",
+      "description": "Hyperlocal high-profit road business finder",
+      "url": "/?view=location_intelligence"
+    },
+    {
+      "name": "Growth Tasks",
+      "short_name": "Tasks",
+      "description": "Review your weekly growth execution checklist",
+      "url": "/?view=growth"
+    }
+  ]
+}

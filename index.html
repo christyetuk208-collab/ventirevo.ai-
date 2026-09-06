@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>VENTIREVO AI — #1 Business GPS & Sovereign Billionaire Coach</title>
+    <meta name="description" content="#1 Business GPS, Hyperlocal Road Intelligence, Agent Finder, and Daily Billionaire Coach for every business in Nigeria and worldwide." />
+    <meta name="theme-color" content="#10b981" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="VENTIREVO AI" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta property="og:title" content="VENTIREVO AI — #1 Business GPS & Sovereign Billionaire Coach" />
+    <meta property="og:description" content="#1 Business GPS, Hyperlocal Road Intelligence, Agent Finder, and Daily Billionaire Coach for every business in Nigeria and worldwide." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 antialiased transition-colors duration-200 selection:bg-emerald-500/30 selection:text-emerald-600 dark:selection:text-emerald-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for (let registration of registrations) {
+            registration.unregister();
+          }
+        });
+        if ('caches' in window) {
+          caches.keys().then(function(names) {
+            for (let name of names) caches.delete(name);
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
+
