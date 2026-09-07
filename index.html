@@ -3,12 +3,11 @@
 <head>
   <title>Ventirevo AI Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <style>
     body { font-family: Arial; padding: 20px; background: #0f172a; color: white; text-align: center; }
-.btn { background: #6366f1; color: white; padding: 14px 24px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; margin: 10px; width: 90%; max-width: 400px; }
-.btn:hover { background: #4f46e5; }
-    input { padding: 12px; width: 90%; max-width: 400px; margin: 10px 0; border-radius: 8px; border: 1px solid #444; background: #1e293b; color: white; }
-.card { background: #1e293b; padding: 20px; border-radius: 12px; max-width: 500px; margin: 20px auto; }
+   .btn { background: #6366f1; color: white; padding: 14px 24px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; margin: 10px; width: 90%; max-width: 400px; }
+   .card { background: #1e293b; padding: 20px; border-radius: 12px; max-width: 500px; margin: 20px auto; }
   </style>
 </head>
 <body>
@@ -16,44 +15,40 @@
 
   <div id="auth-section" class="card">
     <h2>Login</h2>
-    <input type="email" id="email" placeholder="Enter your email">
-    <button class="btn" onclick="login()">Continue</button>
+    <button class="btn" onclick="netlifyIdentity.open()">Continue with Email</button>
+    <button class="btn" style="background:#DB4437" onclick="netlifyIdentity.open('signup')">Continue with Google</button>
+    <button class="btn" style="background:#000" onclick="netlifyIdentity.open('signup')">Continue with Apple</button>
   </div>
 
   <div id="dashboard" class="card" style="display:none;">
     <h2>Welcome <span id="userEmail"></span></h2>
-    <p>Plan: <b id="plan">Free</b></p>
-    <button class="btn" onclick="goToChat()">Go to AI Chat</button>
-    <button class="btn" onclick="upgradeToPro()">Upgrade to Pro - ₦16,000/month</button>
-    <button class="btn" style="background:red;" onclick="logout()">Logout</button>
+    <p>Plan: <b>Free</b></p>
+    <button class="btn" onclick="window.location.href='chat.html'">Go to AI Chat</button>
+    <button class="btn" onclick="window.location.href='https://paystack.com/buy/ventirevo-premium---monthly-toiwrx'">Upgrade to Pro - ₦16,000/month</button>
+    <button class="btn" style="background:red;" onclick="netlifyIdentity.logout()">Logout</button>
   </div>
 
 <script>
-  window.onload = function() {
-    const email = localStorage.getItem('ventirevo_email');
-    if(email) {
-      document.getElementById('auth-section').style.display = 'none';
-      document.getElementById('dashboard').style.display = 'block';
-      document.getElementById('userEmail').innerText = email;
-    }
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (user) {
+        showDashboard(user);
+      } else {
+        document.getElementById('auth-section').style.display = 'block';
+      }
+    });
+    window.netlifyIdentity.on("login", user => {
+      showDashboard(user);
+      window.netlifyIdentity.close();
+    });
+    window.netlifyIdentity.on("logout", () => {
+      location.reload();
+    });
   }
-  function login() {
-    const email = document.getElementById('email').value;
-    if(!email ||!email.includes('@')) { alert('Enter valid email'); return; }
-    localStorage.setItem('ventirevo_email', email);
-    location.reload();
-  }
-  function logout() {
-    localStorage.removeItem('ventirevo_email');
-    location.reload();
-  }
-  function goToChat() {
-    window.location.href = "chat.html";
-  }
-  function upgradeToPro() {
-    const email = localStorage.getItem('ventirevo_email');
-    const paystackLink = "https://paystack.com/buy/ventirevo-premium---monthly-toiwrx";
-    window.location.href = paystackLink + "?email=" + email;
+  function showDashboard(user) {
+    document.getElementById('auth-section').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    document.getElementById('userEmail').innerText = user.email;
   }
 </script>
 </body>
