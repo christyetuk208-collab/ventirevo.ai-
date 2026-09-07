@@ -1,40 +1,60 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>VENTIREVO AI — #1 Business GPS & Sovereign Billionaire Coach</title>
-    <meta name="description" content="#1 Business GPS, Hyperlocal Road Intelligence, Agent Finder, and Daily Billionaire Coach for every business in Nigeria and worldwide." />
-    <meta name="theme-color" content="#10b981" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="VENTIREVO AI" />
-    <link rel="manifest" href="/manifest.json" />
-    <meta property="og:title" content="VENTIREVO AI — #1 Business GPS & Sovereign Billionaire Coach" />
-    <meta property="og:description" content="#1 Business GPS, Hyperlocal Road Intelligence, Agent Finder, and Daily Billionaire Coach for every business in Nigeria and worldwide." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body class="bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 antialiased transition-colors duration-200 selection:bg-emerald-500/30 selection:text-emerald-600 dark:selection:text-emerald-300">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-          for (let registration of registrations) {
-            registration.unregister();
-          }
-        });
-        if ('caches' in window) {
-          caches.keys().then(function(names) {
-            for (let name of names) caches.delete(name);
-          });
-        }
-      }
-    </script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ventirevo AI Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial; padding: 20px; background: #0f172a; color: white; text-align: center; }
+.btn { background: #6366f1; color: white; padding: 14px 24px; border: none; border-radius: 10px; cursor: pointer; font-size: 16px; margin: 10px; width: 90%; max-width: 400px; }
+.btn:hover { background: #4f46e5; }
+    input { padding: 12px; width: 90%; max-width: 400px; margin: 10px 0; border-radius: 8px; border: 1px solid #444; background: #1e293b; color: white; }
+.card { background: #1e293b; padding: 20px; border-radius: 12px; max-width: 500px; margin: 20px auto; }
+  </style>
+</head>
+<body>
+  <h1>Ventirevo AI 🚀</h1>
 
+  <div id="auth-section" class="card">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Enter your email">
+    <button class="btn" onclick="login()">Continue</button>
+  </div>
+
+  <div id="dashboard" class="card" style="display:none;">
+    <h2>Welcome <span id="userEmail"></span></h2>
+    <p>Plan: <b id="plan">Free</b></p>
+    <button class="btn" onclick="goToChat()">Go to AI Chat</button>
+    <button class="btn" onclick="upgradeToPro()">Upgrade to Pro - ₦16,000/month</button>
+    <button class="btn" style="background:red;" onclick="logout()">Logout</button>
+  </div>
+
+<script>
+  window.onload = function() {
+    const email = localStorage.getItem('ventirevo_email');
+    if(email) {
+      document.getElementById('auth-section').style.display = 'none';
+      document.getElementById('dashboard').style.display = 'block';
+      document.getElementById('userEmail').innerText = email;
+    }
+  }
+  function login() {
+    const email = document.getElementById('email').value;
+    if(!email ||!email.includes('@')) { alert('Enter valid email'); return; }
+    localStorage.setItem('ventirevo_email', email);
+    location.reload();
+  }
+  function logout() {
+    localStorage.removeItem('ventirevo_email');
+    location.reload();
+  }
+  function goToChat() {
+    window.location.href = "chat.html";
+  }
+  function upgradeToPro() {
+    const email = localStorage.getItem('ventirevo_email');
+    const paystackLink = "https://paystack.com/buy/ventirevo-premium---monthly-toiwrx";
+    window.location.href = paystackLink + "?email=" + email;
+  }
+</script>
+</body>
+</html>
