@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import "../src/index.css";
 
 export default function RootLayout({
   children,
